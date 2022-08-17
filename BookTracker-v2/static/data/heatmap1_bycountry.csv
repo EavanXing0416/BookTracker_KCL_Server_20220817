@@ -1,0 +1,438 @@
+group,variable,value,detail
+Austria,Austria,0,None
+Austria,Belarus,1,2141588
+Austria,Belgium,0,None
+Austria,Brazil,0,None
+Austria,Denmark,0,None
+Austria,France,0,None
+Austria,Germany,1,2140675
+Austria,Greece,0,None
+Austria,Italy,0,None
+Austria,Japan,0,None
+Austria,Latvia,0,None
+Austria,Netherlands,0,None
+Austria,NoInfo,0,None
+Austria,Poland,0,None
+Austria,Russia,0,None
+Austria,Slovenia,0,None
+Austria,Spain,0,None
+Austria,Sweden,0,None
+Austria,Switzerland,0,None
+Austria,Ukraine,0,None
+Austria,United Kingdom,0,None
+Austria,United States,0,None
+Austria,Vatican City,0,None
+Belgium,Austria,0,None
+Belgium,Belarus,0,None
+Belgium,Belgium,0,None
+Belgium,Brazil,0,None
+Belgium,Denmark,0,None
+Belgium,France,0,None
+Belgium,Germany,0,None
+Belgium,Greece,0,None
+Belgium,Italy,1,2141406
+Belgium,Japan,0,None
+Belgium,Latvia,0,None
+Belgium,Netherlands,0,None
+Belgium,NoInfo,0,None
+Belgium,Poland,0,None
+Belgium,Russia,0,None
+Belgium,Slovenia,0,None
+Belgium,Spain,0,None
+Belgium,Sweden,0,None
+Belgium,Switzerland,0,None
+Belgium,Ukraine,0,None
+Belgium,United Kingdom,0,None
+Belgium,United States,0,None
+Belgium,Vatican City,0,None
+Brazil,Austria,0,None
+Brazil,Belarus,0,None
+Brazil,Belgium,0,None
+Brazil,Brazil,1,2142772
+Brazil,Denmark,0,None
+Brazil,France,0,None
+Brazil,Germany,0,None
+Brazil,Greece,0,None
+Brazil,Italy,0,None
+Brazil,Japan,0,None
+Brazil,Latvia,0,None
+Brazil,Netherlands,0,None
+Brazil,NoInfo,0,None
+Brazil,Poland,0,None
+Brazil,Russia,0,None
+Brazil,Slovenia,0,None
+Brazil,Spain,0,None
+Brazil,Sweden,0,None
+Brazil,Switzerland,0,None
+Brazil,Ukraine,0,None
+Brazil,United Kingdom,0,None
+Brazil,United States,0,None
+Brazil,Vatican City,0,None
+Denmark,Austria,0,None
+Denmark,Belarus,0,None
+Denmark,Belgium,0,None
+Denmark,Brazil,0,None
+Denmark,Denmark,1,2140616
+Denmark,France,0,None
+Denmark,Germany,0,None
+Denmark,Greece,0,None
+Denmark,Italy,0,None
+Denmark,Japan,0,None
+Denmark,Latvia,0,None
+Denmark,Netherlands,0,None
+Denmark,NoInfo,0,None
+Denmark,Poland,0,None
+Denmark,Russia,0,None
+Denmark,Slovenia,0,None
+Denmark,Spain,0,None
+Denmark,Sweden,0,None
+Denmark,Switzerland,0,None
+Denmark,Ukraine,0,None
+Denmark,United Kingdom,0,None
+Denmark,United States,0,None
+Denmark,Vatican City,0,None
+France,Austria,0,None
+France,Belarus,0,None
+France,Belgium,0,None
+France,Brazil,0,None
+France,Denmark,0,None
+France,France,13,"2140985,2140623,2140632,2141738,2141738,2141737,2141739,2141004,2140991,2140988,2140634,2140961,2140961"
+France,Germany,2,"2140994,2140676"
+France,Greece,0,None
+France,Italy,1,2144952
+France,Japan,1,2141400
+France,Latvia,0,None
+France,Netherlands,0,None
+France,NoInfo,0,None
+France,Poland,0,None
+France,Russia,0,None
+France,Slovenia,0,None
+France,Spain,0,None
+France,Sweden,0,None
+France,Switzerland,0,None
+France,Ukraine,0,None
+France,United Kingdom,0,None
+France,United States,1,2144949
+France,Vatican City,0,None
+Germany,Austria,0,None
+Germany,Belarus,0,None
+Germany,Belgium,0,None
+Germany,Brazil,0,None
+Germany,Denmark,0,None
+Germany,France,0,None
+Germany,Germany,14,"2140994,2141599,2141629,2141600,2142781,2142781,2140676,2140828,2141588,2141596,2141122,2141122,2140726,2140726"
+Germany,Greece,0,None
+Germany,Italy,1,2141086
+Germany,Japan,0,None
+Germany,Latvia,0,None
+Germany,Netherlands,0,None
+Germany,NoInfo,1,2141097
+Germany,Poland,0,None
+Germany,Russia,3,"2142781,2142777,2140828"
+Germany,Slovenia,0,None
+Germany,Spain,0,None
+Germany,Sweden,0,None
+Germany,Switzerland,0,None
+Germany,Ukraine,0,None
+Germany,United Kingdom,1,2141588
+Germany,United States,1,2141529
+Germany,Vatican City,1,2141627
+Greece,Austria,0,None
+Greece,Belarus,0,None
+Greece,Belgium,0,None
+Greece,Brazil,0,None
+Greece,Denmark,0,None
+Greece,France,1,2140635
+Greece,Germany,0,None
+Greece,Greece,2,"2013851,2013774"
+Greece,Italy,0,None
+Greece,Japan,0,None
+Greece,Latvia,0,None
+Greece,Netherlands,0,None
+Greece,NoInfo,0,None
+Greece,Poland,0,None
+Greece,Russia,0,None
+Greece,Slovenia,0,None
+Greece,Spain,0,None
+Greece,Sweden,0,None
+Greece,Switzerland,0,None
+Greece,Ukraine,0,None
+Greece,United Kingdom,0,None
+Greece,United States,0,None
+Greece,Vatican City,0,None
+Italy,Austria,3,"2141717,2117472,2140675"
+Italy,Belarus,0,None
+Italy,Belgium,3,"2141406,2140612,2140943"
+Italy,Brazil,0,None
+Italy,Denmark,1,2140616
+Italy,France,17,"2011876,2140633,2140623,2140994,2140632,2141738,2141737,2140630,2140648,2141739,2141004,2144949,2144952,2140676,2140988,2140634,2140961"
+Italy,Germany,9,"2141529,2140668,2141600,2141601,2142781,2141086,2141598,2142777,2140726"
+Italy,Greece,1,2140635
+Italy,Italy,290,"2011876,2011876,2013851,2141340,2140781,2140781,2141376,2141376,2141406,2141444,2141444,2141444,2141444,2141444,2013814,2141160,2140753,2140753,2140643,2140643,2140643,2140635,2140635,2140761,2140761,2140761,2140633,2140633,2140633,2140771,2140771,2140771,2140771,2140771,2141568,2141568,2141568,2141568,2141568,2141568,2141568,2141271,2141268,2141017,2141017,2141017,2141017,2141530,2141530,2141530,2140612,2140613,2141605,2141250,2141250,2007303,2007303,2007303,2007303,2007303,2007303,2007303,2140701,2140701,2140701,2141556,2141556,2141614,2141622,2141622,2141620,2141625,2141433,2141433,2141428,2140745,2141554,2141554,2140711,2140711,2140711,2141037,2141037,2141037,2141037,2126770,2126770,2140741,2141263,2141186,2141186,2141186,2140632,2140632,2140783,2140783,2140795,2140795,2140795,2140795,2140630,2140630,2141192,2141192,2140648,2144949,2141557,2141557,2144952,2001009,2001009,2140856,2140784,2140784,2140784,2142781,2141086,2141086,2141086,2141086,2141603,2141143,2140676,2140676,2140676,2140676,2140676,2140676,2140676,2140676,2140676,2142772,559810,2141491,2141491,2141147,2140991,2140991,2129250,2016450,2016450,2016450,2016450,2128758,2128758,2140739,2140739,2141240,2140723,2140723,2140723,2140988,2140750,2140750,2140752,2140752,2140752,2140760,2140760,2140687,2140687,2117472,2141109,2141109,2141109,2141099,2141099,2141099,2141099,2141099,2141102,2141016,2141016,2141016,2141016,2141016,2141110,2141110,2141110,2141427,2141456,2141456,2140731,2140731,2140731,2140731,2141434,2141434,2141434,2141434,2141434,2141204,2141204,2141492,2145052,2145052,2141553,2140776,2141400,2140685,2140685,2140685,2140685,2140685,2140732,2140732,2141029,2141029,2141029,2141588,2141588,2141168,2141168,2141251,2140686,2140686,2140686,2140686,2141596,2141596,2141596,2140704,2140704,2140704,2140704,2140704,2141035,2141035,2141035,2141035,2141035,2141035,2140738,2140738,2140738,2140738,2141048,2141048,2141048,2141048,2140700,2140700,2140700,2140700,2140703,2140703,2140703,2140703,2140703,2141082,2141082,2141097,2141097,2141097,2141097,2141097,2140725,2140725,2141098,2141098,2141098,2141338,2141338,2141338,2141338,2140675,2140751,2140751,2140709,2140709,2140709,2140709,2140770,2140770,2140770,2141191,2011395,2141034,2141034,2141280,201623,201623,2140702,2140702,2140702,2140702,2141122,2001011,2140726,2140726"
+Italy,Japan,4,"2141555,2141603,2142772,2140855"
+Italy,Latvia,0,None
+Italy,Netherlands,1,2140725
+Italy,NoInfo,47,"2013851,2140781,2019494,2140985,2140613,2140623,2141180,2141627,2141433,2140745,2141630,2126770,2140741,2141490,2141270,2141599,2141629,2141643,2140648,2141557,2141148,2142772,2140828,2138497,2141115,2013774,2140739,2141240,2141102,2141456,2141204,2141553,2140776,2141029,2141588,2140634,2141251,2141596,2141097,2140725,2140849,2140751,2140855,2011395,2011395,2141280,2141122"
+Italy,Poland,0,None
+Italy,Russia,2,"2141605,2140829"
+Italy,Slovenia,1,2016450
+Italy,Spain,1,2141108
+Italy,Sweden,0,None
+Italy,Switzerland,2,"2130036,2141603"
+Italy,Ukraine,0,None
+Italy,United Kingdom,28,"2013814,2141160,2141250,2141350,2141554,2141263,2141186,2141489,2001008,2001009,2140856,2141143,2001010,559810,2141491,2142782,2141147,2140991,2129250,2141492,2145052,2141553,2141227,2141400,2141082,2141191,201623,2001011"
+Italy,United States,17,"2141466,2141271,2141268,2140613,2141203,2141556,2141614,2141622,2141620,2141192,2141558,2141439,2141267,2141440,2128758,2141204,2141280"
+Italy,Vatican City,5,"2140643,2141433,2141428,2141427,2141434"
+Japan,Austria,0,None
+Japan,Belarus,0,None
+Japan,Belgium,0,None
+Japan,Brazil,1,2142772
+Japan,Denmark,0,None
+Japan,France,0,None
+Japan,Germany,0,None
+Japan,Greece,0,None
+Japan,Italy,0,None
+Japan,Japan,2,"2141148,2141400"
+Japan,Latvia,0,None
+Japan,Netherlands,0,None
+Japan,NoInfo,1,2141603
+Japan,Poland,0,None
+Japan,Russia,0,None
+Japan,Slovenia,0,None
+Japan,Spain,1,2140849
+Japan,Sweden,1,2140855
+Japan,Switzerland,0,None
+Japan,Ukraine,0,None
+Japan,United Kingdom,1,2141148
+Japan,United States,1,2141555
+Japan,Vatican City,0,None
+Latvia,Austria,0,None
+Latvia,Belarus,0,None
+Latvia,Belgium,0,None
+Latvia,Brazil,0,None
+Latvia,Denmark,0,None
+Latvia,France,0,None
+Latvia,Germany,0,None
+Latvia,Greece,0,None
+Latvia,Italy,0,None
+Latvia,Japan,0,None
+Latvia,Latvia,1,2141102
+Latvia,Netherlands,0,None
+Latvia,NoInfo,0,None
+Latvia,Poland,0,None
+Latvia,Russia,0,None
+Latvia,Slovenia,0,None
+Latvia,Spain,0,None
+Latvia,Sweden,0,None
+Latvia,Switzerland,0,None
+Latvia,Ukraine,0,None
+Latvia,United Kingdom,0,None
+Latvia,United States,0,None
+Latvia,Vatican City,0,None
+Netherlands,Austria,0,None
+Netherlands,Belarus,0,None
+Netherlands,Belgium,0,None
+Netherlands,Brazil,0,None
+Netherlands,Denmark,0,None
+Netherlands,France,0,None
+Netherlands,Germany,0,None
+Netherlands,Greece,0,None
+Netherlands,Italy,1,2140725
+Netherlands,Japan,0,None
+Netherlands,Latvia,0,None
+Netherlands,Netherlands,1,2138497
+Netherlands,NoInfo,0,None
+Netherlands,Poland,0,None
+Netherlands,Russia,0,None
+Netherlands,Slovenia,0,None
+Netherlands,Spain,0,None
+Netherlands,Sweden,0,None
+Netherlands,Switzerland,0,None
+Netherlands,Ukraine,0,None
+Netherlands,United Kingdom,0,None
+Netherlands,United States,0,None
+Netherlands,Vatican City,0,None
+NoInfo,Austria,0,None
+NoInfo,Belarus,0,None
+NoInfo,Belgium,0,None
+NoInfo,Brazil,0,None
+NoInfo,Denmark,0,None
+NoInfo,France,1,2140985
+NoInfo,Germany,8,"2141627,2141599,2141629,2140828,2141588,2141596,2141097,2141122"
+NoInfo,Greece,0,None
+NoInfo,Italy,22,"2140781,2019494,2140613,2140623,2141433,2140745,2140741,2140648,2141603,2142772,2140739,2141456,2141204,2140776,2141029,2140634,2141097,2140725,2140751,2140855,2011395,2011395"
+NoInfo,Japan,2,"2141148,2140849"
+NoInfo,Latvia,1,2141102
+NoInfo,Netherlands,1,2138497
+NoInfo,NoInfo,11,"2019494,2140985,2141180,2141627,2126770,2126770,2126770,2141490,2013774,2013774,2013774"
+NoInfo,Poland,0,None
+NoInfo,Russia,0,None
+NoInfo,Slovenia,0,None
+NoInfo,Spain,0,None
+NoInfo,Sweden,0,None
+NoInfo,Switzerland,1,2141643
+NoInfo,Ukraine,1,2141115
+NoInfo,United Kingdom,10,"2013851,2141180,2126770,2141186,2141557,2013774,2141240,2141553,2141553,2141280"
+NoInfo,United States,3,"2141630,2141270,2141251"
+NoInfo,Vatican City,1,2141490
+Russia,Austria,0,None
+Russia,Belarus,0,None
+Russia,Belgium,0,None
+Russia,Brazil,0,None
+Russia,Denmark,0,None
+Russia,France,0,None
+Russia,Germany,0,None
+Russia,Greece,0,None
+Russia,Italy,0,None
+Russia,Japan,0,None
+Russia,Latvia,0,None
+Russia,Netherlands,0,None
+Russia,NoInfo,0,None
+Russia,Poland,0,None
+Russia,Russia,2,"2140829,2140829"
+Russia,Slovenia,0,None
+Russia,Spain,0,None
+Russia,Sweden,0,None
+Russia,Switzerland,0,None
+Russia,Ukraine,0,None
+Russia,United Kingdom,0,None
+Russia,United States,0,None
+Russia,Vatican City,0,None
+Slovenia,Austria,0,None
+Slovenia,Belarus,0,None
+Slovenia,Belgium,0,None
+Slovenia,Brazil,0,None
+Slovenia,Denmark,0,None
+Slovenia,France,0,None
+Slovenia,Germany,0,None
+Slovenia,Greece,0,None
+Slovenia,Italy,1,2016450
+Slovenia,Japan,0,None
+Slovenia,Latvia,0,None
+Slovenia,Netherlands,0,None
+Slovenia,NoInfo,0,None
+Slovenia,Poland,0,None
+Slovenia,Russia,0,None
+Slovenia,Slovenia,0,None
+Slovenia,Spain,0,None
+Slovenia,Sweden,0,None
+Slovenia,Switzerland,0,None
+Slovenia,Ukraine,0,None
+Slovenia,United Kingdom,0,None
+Slovenia,United States,0,None
+Slovenia,Vatican City,0,None
+Spain,Austria,0,None
+Spain,Belarus,0,None
+Spain,Belgium,0,None
+Spain,Brazil,0,None
+Spain,Denmark,0,None
+Spain,France,0,None
+Spain,Germany,0,None
+Spain,Greece,0,None
+Spain,Italy,0,None
+Spain,Japan,0,None
+Spain,Latvia,0,None
+Spain,Netherlands,0,None
+Spain,NoInfo,0,None
+Spain,Poland,0,None
+Spain,Russia,0,None
+Spain,Slovenia,0,None
+Spain,Spain,4,"2140849,2140849,2141108,2141108"
+Spain,Sweden,0,None
+Spain,Switzerland,0,None
+Spain,Ukraine,0,None
+Spain,United Kingdom,0,None
+Spain,United States,0,None
+Spain,Vatican City,0,None
+Ukraine,Austria,0,None
+Ukraine,Belarus,0,None
+Ukraine,Belgium,0,None
+Ukraine,Brazil,0,None
+Ukraine,Denmark,0,None
+Ukraine,France,0,None
+Ukraine,Germany,0,None
+Ukraine,Greece,0,None
+Ukraine,Italy,0,None
+Ukraine,Japan,0,None
+Ukraine,Latvia,0,None
+Ukraine,Netherlands,0,None
+Ukraine,NoInfo,0,None
+Ukraine,Poland,1,2141115
+Ukraine,Russia,0,None
+Ukraine,Slovenia,0,None
+Ukraine,Spain,0,None
+Ukraine,Sweden,0,None
+Ukraine,Switzerland,0,None
+Ukraine,Ukraine,1,2141115
+Ukraine,United Kingdom,0,None
+Ukraine,United States,0,None
+Ukraine,Vatican City,0,None
+United Kingdom,Austria,1,2141588
+United Kingdom,Belarus,0,None
+United Kingdom,Belgium,0,None
+United Kingdom,Brazil,0,None
+United Kingdom,Denmark,0,None
+United Kingdom,France,1,2140991
+United Kingdom,Germany,0,None
+United Kingdom,Greece,2,"2013851,2013774"
+United Kingdom,Italy,1,2141553
+United Kingdom,Japan,0,None
+United Kingdom,Latvia,0,None
+United Kingdom,Netherlands,1,2141250
+United Kingdom,NoInfo,2,"2141186,2141553"
+United Kingdom,Poland,0,None
+United Kingdom,Russia,0,None
+United Kingdom,Slovenia,0,None
+United Kingdom,Spain,0,None
+United Kingdom,Sweden,0,None
+United Kingdom,Switzerland,0,None
+United Kingdom,Ukraine,0,None
+United Kingdom,United Kingdom,58,"2013851,2013814,2013814,2013814,2013814,2141160,2141160,2141160,2141180,2141350,2141350,2126770,2126770,2126770,2126770,2141263,2141263,2141263,2141186,2001008,2141557,2141557,2140856,2141148,2141143,2141143,2141143,2141143,2141143,2001010,2001010,559810,559810,559810,2142782,2141147,2129250,2129250,2129250,2129250,2013774,2013774,2141240,2141240,2141240,2145052,2141553,2141553,2141553,2141553,2141553,2141553,2141227,2141400,2141082,2141280,201623,2001011"
+United Kingdom,United States,15,"2013814,2141554,2126770,2141263,2141489,2141557,2141491,2129250,2013774,2141492,2145052,2141553,2141400,2141280,201623"
+United Kingdom,Vatican City,0,None
+United States,Austria,0,None
+United States,Belarus,0,None
+United States,Belgium,1,2140613
+United States,Brazil,0,None
+United States,Denmark,0,None
+United States,France,1,2141400
+United States,Germany,1,2145052
+United States,Greece,0,None
+United States,Italy,2,"2126770,2141280"
+United States,Japan,0,None
+United States,Latvia,0,None
+United States,Netherlands,0,None
+United States,NoInfo,1,2141251
+United States,Poland,0,None
+United States,Russia,0,None
+United States,Slovenia,0,None
+United States,Spain,0,None
+United States,Sweden,0,None
+United States,Switzerland,0,None
+United States,Ukraine,0,None
+United States,United Kingdom,1,2013774
+United States,United States,32,"2141466,2013814,2141268,2141555,2141203,2141614,2141614,2141622,2141620,2141554,2141630,2141263,2141270,2141489,2141489,2141192,2141192,2141192,2144949,2141491,2129250,2013774,2128758,2128758,2141204,2141492,2145052,2145052,2145052,2141553,2141400,201623"
+United States,Vatican City,0,None
+Vatican City,Austria,0,None
+Vatican City,Belarus,0,None
+Vatican City,Belgium,0,None
+Vatican City,Brazil,0,None
+Vatican City,Denmark,0,None
+Vatican City,France,1,2140643
+Vatican City,Germany,0,None
+Vatican City,Greece,0,None
+Vatican City,Italy,0,None
+Vatican City,Japan,0,None
+Vatican City,Latvia,0,None
+Vatican City,Netherlands,0,None
+Vatican City,NoInfo,0,None
+Vatican City,Poland,0,None
+Vatican City,Russia,0,None
+Vatican City,Slovenia,0,None
+Vatican City,Spain,0,None
+Vatican City,Sweden,0,None
+Vatican City,Switzerland,0,None
+Vatican City,Ukraine,0,None
+Vatican City,United Kingdom,0,None
+Vatican City,United States,1,2141490
+Vatican City,Vatican City,1,2141428

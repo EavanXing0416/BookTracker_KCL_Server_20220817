@@ -1,0 +1,90 @@
+body {
+    /*font-family: "Helvetica Neue", Helvetica, sans-serif;*/
+    font-size: 14px;
+    color: #333;
+}
+
+
+/*#map*/
+
+.info {
+    height: 20px;
+}
+
+
+/*#map*/
+
+.basemap path {
+    fill: #eee;
+    stroke: #ccc;
+}
+
+
+/*#map*/
+
+.bounding-box rect {
+    fill: none;
+    stroke: none;
+    /*stroke: #333;*/
+    stroke-dasharray: 1, 1;
+}
+
+
+/*#map*/
+
+.centroid {
+    display: none;
+}
+
+
+/*#map*/
+
+.centroid circle {
+    /*stroke: #333;*/
+    stroke: none;
+    fill: none;
+}
+
+svg {
+    display: block;
+    margin: auto;
+}
+
+
+/* css for the table */
+
+#table-container table {
+    margin: auto;
+    table-layout: fixed;
+    overflow: auto;
+}
+
+#table-container table thead th {
+    font-weight: bold;
+    font-size: small;
+    padding: 0.5rem;
+    text-align: center;
+    position: sticky;
+    background-color: #eee;
+}
+
+#table-container table tbody td {
+    font-weight: normal;
+    /*font-size: smaller;*/
+    padding: 0.05rem;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+#control-panel-container label {
+    cursor: pointer;
+    display: inline-block;
+    text-align: right;
+    width: 25%;
+    vertical-align: top;
+}
+
+.leaflet-container {
+    font: inherit !important;
+    font-size: x-small !important;
+}

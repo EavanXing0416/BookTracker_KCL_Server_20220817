@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MEI Book Trade Project</title>
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/style.css" rel="stylesheet">
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h1>
+                        15cBOOKTRADE Project Web App Interface
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card border-dark mb-3">
+                    <h4 class="card-header">Control Panel</h4>
+                    <div class="card-body">
+                        <h6>Search a Book by its ID</h6>
+                        <!--A table showing the csv file-->
+                        <input type="text" id="myInput-id" onkeyup="searchBook()" placeholder="Please input a book id..." title="Type in an id" style="width: 100%; margin-bottom:1rem ">
+                        <!--<input type="text" id="myInput-hi" onkeyup="searchBook()" placeholder="Search by holding institution..." title="Type in an id" style="width: 100%; margin-bottom:1rem ">-->
+                        <!--<input type="text" id="myInput-location" onkeyup="searchBook()" placeholder="Search for locations..." title="Type in an id" style="width: 100%; margin-bottom:1rem ">-->
+                        <!--<input type="text" id="myInput-century" onkeyup="searchBook()" placeholder="Search by centuries..." title="Type in an id" style="width: 100%; margin-bottom:1rem ">-->
+                        <!--<input type="text" id="myInput-today" onkeyup="searchToday()" placeholder="Search for books by id..." title="Type in an id" style="width: 100%; margin-bottom:1rem ">-->
+                        <div id="table-container" style="overflow: auto; height: 200px;">
+                            <table id="myTable" style="width: 100%;">
+                                <thead style="position: sticky; top: 0;">
+                                    <th style="width:10%">ID</th>
+                                    <th style="width:20%">Holding Institution</th>
+                                    <th style="width:10%">Provenance</th>
+                                    <th style="width:10%">Location</th>
+                                    <th style="width:10%">Start Time</th>
+                                    <th style="width:10%">End Time</th>
+                                    <th style="width:10%">Century</th>
+                                    <th style="width:10%">Today</th>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!--<div class="card-footer"></div>-->
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card mb-3">
+                    <h4 class="card-header">Trajectory on Map</h4>
+                    <div class="card-body">
+                        <!--Here is a svg for the basic world map-->
+                        <div id="map">
+                            <svg width=100% height="400" style="background-color:rgb(210, 220, 240)"><!--width 900, height = 500 -->
+								<g class="basemap"></g>
+								<g class="movements"></g>
+								<g class="locations"></g> 
+								<g class="bounding-box"><rect></rect></g>
+								<g class="centroid"><circle r="3"></circle></g>	 
+							</svg>
+                            <div class="info">Country Name</div>
+                        </div>
+                    </div>
+                    <!--<div class="card-footer"></div>-->
+                </div>
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card mb-3">
+                            <h4 class="card-header">Line Chart</h4>
+                            <div class="card-body">
+                                <!--<div class="card-footer"></div>-->
+                                <select id="selectButton"></select>
+                                <div id="linechart">
+                                    <svg width=90% height="200"></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card mb-3">
+                            <h4 class="card-header">Space Time Cube</h4>
+                            <div class="card-body">Content of the 3D Cube</div>
+                            <!--<div class="card-footer"></div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card border-dark mb-3">
+                    <h4 class="card-header">Description of Books</h4>
+                    <div class="card-body">Provenance details of the selected books
+                        <p>
+                            <a class="btn" href="#">View details »</a>
+                        </p>
+                    </div>
+                    <!--<div class="card-footer"></div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--js for drawing the elements in different panels-->
+    <script src="../static/js/csvtable.js"></script>
+    <script src="../static/js/basemap.js"></script>
+    <script src="../static/js/linechart.js"></script>
+
+</body>
+
+</html>

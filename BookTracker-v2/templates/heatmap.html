@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BookTracker-v2</title>
+
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <link href="../static/css/css_original/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/css_original/style.css" rel="stylesheet">
+    <link href="../static/css/dropdownmenu.css" rel="stylesheet">
+
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+
+    <!-- Load Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="" />
+
+    <!--Leaflet FullScreen Plugin-->
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.2/dist/chart.min.js"></script>
+
+    <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-radar.min.js"></script>
+    -->
+
+    <style>
+        .body {
+            font-size: 12px;
+            line-height: 1.25;
+        }
+        
+        #OverallHeatmapHeader {
+            font-size: 8px;
+            line-height: 1;
+        }
+        
+        .leaflet-left {
+            width: 100%;
+        }
+        
+        .outer-box {
+            overflow-x: scroll;
+            overflow-y: hidden;
+        }
+        
+        .inner-box {
+            white-space: nowrap;
+        }
+        
+        .inner-box div {
+            display: inline-block;
+            margin-right: 5px;
+        }
+        
+        #Storyboard1-container {
+            overflow-y: auto;
+        }
+        
+        #Storyboard1-container thead th {
+            position: sticky;
+            top: 0;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: small;
+            padding: 0.25rem;
+        }
+        
+        th {
+            background-color: #d3dfea;
+            z-index: 999;
+            text-align: center;
+            padding: 0.25rem;
+            vertical-align: middle;
+        }
+        
+        tbody td {
+            background-color: #dfe6ec;
+            padding: 0.25rem;
+        }
+        
+        .table td,
+        .table th {
+            padding: 0.2rem;
+        }
+        
+        .table th {
+            vertical-align: middle;
+        }
+        
+        .stb1StatContainer {
+            display: inline-block;
+            top: 0;
+            text-align: center;
+            vertical-align: top
+        }
+        
+        .stb1OverviewContainer {
+            display: inline-block;
+            vertical-align: top
+        }
+        
+        .stopLineLocName {
+            /*font-style: italic;*/
+            font-size: 11px;
+            font-weight: lighter;
+        }
+        
+        .stopLineCityName {
+            font-style: italic;
+            font-size: 11px;
+            font-weight: lighter;
+        }
+        /*
+        
+        #text-area-div {
+            display: none;
+            visibility: hidden;
+        }
+        */
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card" id="query-container">
+                            <div class="tabbable" id="tabs-663812">
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active show" href="#overallHeatmaptab" data-toggle="tab">Overall</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#queryInput" data-toggle="tab">Search</a>
+                                    </li>
+                                </ul>
+
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="overallHeatmaptab">
+                                        <div id="overallHeatmap-container">
+                                            <div id="OverallHeatmapHeader" style="white-space: nowrap;">
+                                                <div style="display: inline-block;">
+                                                    <h6 class="card-title" style="font-size: 8px">Overall View</h6>
+                                                </div>
+                                                <div class="btn-group btn-group-sm" style="display: inline-block;">
+                                                    <h6>
+                                                        <button type="button" id='alphabatical' class="btn btn-info btn-sm" onclick="updateHeatmap('alphabetical')" style="font-size: 8px">Alphabetical</button>
+                                                        <button type="button" id='freq' class="btn btn-info btn-sm" onclick="updateHeatmap('freq')" style="font-size: 8px">Frequency</button>
+                                                        <!--button type="button" id='location' class="btn btn-primary">Geogratical distance</button-->
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                            <div id="Heatmap1-container">
+                                            </div>
+                                            <div id="Heatmap1-Legend">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="queryInput">
+                                        <div class="select-content" id="startList">
+                                            <input type="hidden" name="newMachineId">
+                                            <input type="text" name="select_input" id="select_input_start" class="select-input" value="" autocomplete="off" placeholder="start location" />
+                                            <div id="search_select_start" class="search-select">
+                                                <ul id="select_ul_start" class="select-ul">
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="select-content" id="endList">
+                                            <input type="hidden" name="newMachineId">
+                                            <input type="text" name="select_input" id="select_input_end" class="select-input" value="" autocomplete="off" placeholder="end location" />
+                                            <!--div class="sanjiao">
+                                                <span class="item dot-bottom"></span>
+                                            </div-->
+                                            <div id="search_select_end" class="search-select">
+                                                <ul id="select_ul_end" class="select-ul">
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn-info btn-sm" id="SearchBtn" onclick="searchBookByLocation()" style="margin: 25px 0px;">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card" id="subHeatmap-container">
+                            <div class="tabbable" id="tabs-663812">
+                                <ul class="nav nav-tabs">
+                                    <!--
+                                <li class="nav-item">
+                                    <a class="nav-link active show" href="#heatmaptab1" data-toggle="tab">Heatmap 1</a>
+                                </li>
+                                -->
+                                    <li class="nav-item">
+                                        <a class="nav-link active show" href="#heatmaptab2" data-toggle="tab">Time</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#heatmaptab3" data-toggle="tab">Location</a>
+                                    </li>
+                                </ul>
+
+                                <div class="tab-content">
+                                    <!--
+                                <div class="tab-pane active" id="heatmaptab1">
+                                    <h3>Heatmap1</h3>
+                                    <div id="Heatmap1-container">
+                                    </div>
+                                </div>
+                                -->
+                                    <div class="tab-pane active" id="heatmaptab2">
+                                        <!--h3>Heatmap2</h3-->
+                                        <div id="Heatmap2-container"></div>
+                                        <div id="Heatmap2-Legend"></div>
+                                    </div>
+                                    <div class="tab-pane" id="heatmaptab3">
+                                        <!--h3>Heatmap3</h3-->
+                                        <div id="Heatmap3-container"></div>
+                                        <div id="Heatmap3-Legend"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body" id="infoPanel-container">
+                                <h6 class="card-title">Information Panel <input type="button" id="clearbtn" class="btn btn-info btn-sm" value="Clear" onclick="infoClear() ">
+                                </h6>
+                                <div id="info" style="width:34%; display: inline-block; vertical-align: top">
+                                    <div id="'text-area-div" style="display: none">Current selected book(s): <br>
+                                        <textarea id="selectedIdBox" value="" style="width: 100%; height: 100%;"></textarea>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div id="info-btns" style="width: 65%; height:215px; overflow-y:scroll; display: inline-block; vertical-align: top; ">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card" id="STB-container">
+                            <div class="tabbable" id="tabs-663812">
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active show" href="#storytab1" data-toggle="tab">Multi-Static Storyboard</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#storytab2" data-toggle="tab">Single-Static Storyboard</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#storytab3" data-toggle="tab">Single-Dynamic Storyboard</a>
+                                    </li>
+                                </ul>
+
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="storytab1">
+                                        <!--h3>Storyboard1</h3-->
+                                        <div id="Storyboard1-container">
+                                            <table class="table" id="stb1Table">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">#</th>
+                                                        <!--th scope="col">Info</th-->
+                                                        <!--th scope="col">Data Compeletness</th-->
+                                                        <th scope="col">Info</th>
+                                                        <th scope="col">Life</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="stb1TableBody">
+                                                    <!--tr>
+                                                        <th scope="row">1</th>
+                                                        <td>
+                                                            <div>
+                                                                this is a test
+                                                            </div>
+                                                        </td>
+                                                    </tr-->
+                                                </tbody>
+                                            </table>
+                                            <!--Multiple div containers with x-scroll>
+                                <div id="multiboard-outer-container" style="width:100%;background-color:rgb(114, 200, 226);margin-right:5px;overflow-x:scroll;overflow-y:hidden;white-space: nowrap;">
+                                    <div id="multiboard-inner-container" style="display:inline-block;border: 1px solid black; width: 150%; opacity: 0.9;overflow:scroll;">
+                                        <js add more div as different boards>
+                                    </div>
+                                </div>
+                                -->
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="storytab2">
+                                        <!--h3>Storyboard2</h3-->
+                                        <div id="Storyboard2-container">
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="storytab3">
+                                        <!--h3>Storyboard3</h3-->
+                                        <div id="Storyboard3-container">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="../static/js/js_original/jquery.min.js"></script>
+    <script src="../static/js/js_original/bootstrap.min.js"></script>
+    <script src="../static/js/js_original/scripts.js"></script>
+    <!--script src="../static/js/js-library/d3-ForceEdgeBundling.js"></script-->
+    <script src="../static/js/js-library/MovingMarker.js"></script>
+    <script src='../static/js/js-library/polylineDecorator.js'></script>
+    <script src='../static/js/js-library/leaflet-polycolor.min.js'></script>
+    <script src='../static/js/js-library/leaflet-arc.min.js'></script>
+    <script src="http://sashakavun.github.io/leaflet-canvasicon/leaflet-canvasicon.js"></script>
+    <script src="../static/js/js-library/leaflet-piechart.js"></script>
+    <script src="../static/js/js-library/leaflet-timeline.js"></script>
+    <script src="../static/js/js-library/MovingMarker.js"></script>
+    <script src="../static/js/js-library/L.D3SvgOverlay.min.js"></script>
+    <script src="../static/js/js-library/d3-ForceEdgeBundling.js"></script>
+    <script src="../static/js/js-library/leaflet-motion.js"></script>
+
+
+    <script src="../static/js/dropdownmenu.js"></script>
+    <script src="../static/js/heatmap.js"></script>
+    <script src="../static/js/infopanel.js"></script>
+    <script src="../static/js/radar-chart.js"></script>
+    <script src="../static/js/storyboard.js"></script>
+    <script src="../static/js/stb1-map-overview.js"></script>
+    <script src="../static/js/stb2-edgebundling.js"></script>
+
+
+
+</body>
+
+</html>

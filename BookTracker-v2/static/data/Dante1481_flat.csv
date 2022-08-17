@@ -1,0 +1,859 @@
+Id,AreaName,PlaceName,Lon,Lat,Start,End,LocType,StartType,EndType
+02130036,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02130036,Switzerland,Zurich,8.55,47.36667,1481,2021,accurate,NoInfo,accurate
+02011876,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02011876,Italy,Venice,12.33092,45.4389,1481,1797,accurate,NoInfo,accurate
+02011876,Italy,Venice,12.33092,45.4389,1701,1800,accurate,accurate,approx
+02011876,France,Paris,2.3488,48.85341,1797,2021,accurate,accurate,accurate
+02013851,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02013851,Italy,Italy,12.83333,42.83333,1501,1600,accurate,accurate,approx
+02013851,NoInfo,NoInfo,12.83333,42.83333,1800,1900,NoInfo,approx,approx
+02013851,United Kingdom,Maldon,0.67463,51.7311,1940,1963,accurate,accurate,accurate
+02013851,United Kingdom,London,-0.12574,51.50853,2000,2001,accurate,approx,accurate
+02013851,Greece,Athens,23.72784,37.98376,2015,2015,accurate,accurate,accurate
+02013851,Greece,Athens,23.72784,37.98376,2015,2021,accurate,accurate,accurate
+02141340,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141340,Italy,Genoa,8.94439,44.40478,1765,1945,accurate,accurate,accurate
+02140781,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140781,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140781,Italy,NoInfo,12.83333,42.83333,1625,1703,approx,accurate,accurate
+02140781,NoInfo,NoInfo,12.83333,42.83333,1701,1800,NoInfo,accurate,approx
+02140781,Italy,Florence,11.24626,43.77925,1752,2021,accurate,accurate,accurate
+02141376,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141376,Italy,Florence,11.24626,43.77925,1894,1916,accurate,accurate,accurate
+02141376,Italy,Florence,11.24626,43.77925,1921,2021,accurate,accurate,accurate
+02141406,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141406,Italy,NoInfo,12.83333,42.83333,1481,1700,approx,accurate,approx
+02141406,Belgium,Brussels,4.34878,50.85045,1850,1890,accurate,approx,accurate
+02141406,Italy,Castiglione,9.99271,44.29546,1929,2012,accurate,accurate,accurate
+02019494,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02019494,NoInfo,NoInfo,11.24626,43.77925,1501,1600,NoInfo,accurate,approx
+02019494,NoInfo,NoInfo,11.24626,43.77925,1501,1600,NoInfo,NoInfo,NoInfo
+02019494,Italy,Milan,9.18951,45.46427,1800,2021,accurate,approx,accurate
+02141444,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141444,Italy,Florence,11.24626,43.77925,1481,1500,accurate,accurate,approx
+02141444,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141444,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141444,Italy,NoInfo,12.83333,42.83333,1501,1600,approx,accurate,approx
+02141444,Italy,Palermo,13.33561,38.13205,1788,2021,accurate,accurate,accurate
+02141466,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141466,United States,Cambridge,-71.10561,42.3751,1950,1984,accurate,approx,accurate
+02141466,United States,Cambridge,-71.10561,42.3751,1984,2021,accurate,accurate,accurate
+02013814,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02013814,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02013814,United Kingdom,Euston,0.78599,52.37924,1781,1815,accurate,accurate,accurate
+02013814,United Kingdom,London,-0.12574,51.50853,1815,1825,accurate,accurate,accurate
+02013814,United Kingdom,London,-0.12574,51.50853,1825,1866,accurate,accurate,accurate
+02013814,United Kingdom,London,-0.12574,51.50853,1867,1867,accurate,accurate,accurate
+02013814,United Kingdom,Dunecht,-2.40945,57.1718,1867,1887,accurate,accurate,accurate
+02013814,United States,Boston,-71.05977,42.35843,1887,1903,accurate,accurate,accurate
+02013814,United States,Boston,-71.05977,42.35843,1903,2021,accurate,accurate,accurate
+02141160,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141160,Italy,NoInfo,12.83333,42.83333,1481,1481,approx,NoInfo,NoInfo
+02141160,United Kingdom,Althorp,-1.00095,52.28107,1792,1481,accurate,accurate,NoInfo
+02141160,United Kingdom,London,-0.12574,51.50853,1757,1829,accurate,accurate,accurate
+02141160,United Kingdom,London,-0.12574,51.50853,1829,1829,accurate,accurate,accurate
+02141160,United Kingdom,London,-0.12574,51.50853,1829,2021,accurate,accurate,accurate
+02141529,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141529,Germany,Schweinfurt,10.22175,50.04937,1960,2000,accurate,accurate,approx
+02141529,United States,New York,-74.00597,40.71427,1996,2021,accurate,accurate,accurate
+02140753,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140753,Italy,Camaldoli,11.82031,43.79359,1854,1856,accurate,accurate,accurate
+02140753,Italy,Poppi,11.76642,43.72123,1856,2021,accurate,accurate,accurate
+02140643,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140643,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02140643,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02140643,Italy,Capaccio,15.07981,40.42435,1481,1504,accurate,accurate,accurate
+02140643,Vatican City,Vatican City,12.4533,41.90225,1504,1504,accurate,accurate,NoInfo
+02140643,France,Paris,2.3488,48.85341,1797,2021,accurate,accurate,accurate
+02140635,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140635,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02140635,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02140635,Greece,Rhodes,28.22199,36.43556,1481,1503,accurate,accurate,accurate
+02140635,France,Paris,2.3488,48.85341,1792,2021,accurate,accurate,accurate
+02140761,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140761,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140761,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140761,Italy,Rome,12.51133,41.89193,1481,2021,accurate,NoInfo,accurate
+02140633,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140633,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02140633,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140633,Italy,Florence,11.24626,43.77925,1601,1800,accurate,accurate,approx
+02140633,France,Paris,2.3488,48.85341,1818,2021,accurate,accurate,accurate
+02140985,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140985,NoInfo,Europe,9.14062,48.69096,1481,1550,accurate,accurate,approx
+02140985,NoInfo,NoInfo,9.14062,48.69096,1700,1800,NoInfo,approx,approx
+02140985,France,Paris,2.3488,48.85341,1845,1934,accurate,accurate,accurate
+02140985,France,Paris,2.3488,48.85341,1935,2021,accurate,accurate,accurate
+02140771,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140771,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140771,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140771,Italy,Florence,11.24626,43.77925,1501,1600,accurate,accurate,approx
+02140771,Italy,Rome,12.51133,41.89193,1754,1883,accurate,accurate,accurate
+02140771,Italy,Rome,12.51133,41.89193,1883,2021,accurate,accurate,accurate
+02141568,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141568,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02141568,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141568,Italy,Florence,11.24626,43.77925,1481,1529,accurate,accurate,accurate
+02141568,Italy,Florence,11.24626,43.77925,1794,1845,accurate,accurate,accurate
+02141568,Italy,Florence,11.24626,43.77925,1805,1868,accurate,accurate,accurate
+02141568,Italy,Florence,11.24626,43.77925,1824,1903,accurate,accurate,accurate
+02141568,Italy,NoInfo,12.83333,42.83333,1949,2021,approx,accurate,accurate
+02141271,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141271,Italy,Milan,9.18951,45.46427,1481,1501,accurate,accurate,accurate
+02141271,United States,Los Angeles,-118.24368,34.05223,1963,2021,accurate,accurate,accurate
+02141268,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141268,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141268,United States,New York,-74.00597,40.71427,1921,1936,accurate,accurate,accurate
+02141268,United States,Williamstown,-73.20372,42.71202,1923,2021,accurate,accurate,accurate
+02141017,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141017,Italy,NoInfo,12.83333,42.83333,1601,1800,approx,accurate,approx
+02141017,Italy,Livorno,10.32615,43.54427,1711,1792,accurate,accurate,accurate
+02141017,Italy,Florence,11.24626,43.77925,1792,1810,accurate,accurate,accurate
+02141017,Italy,Florence,11.24626,43.77925,1810,2021,accurate,accurate,accurate
+02141530,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141530,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02141530,Italy,Venice,12.33265,45.43713,1481,1806,accurate,NoInfo,accurate
+02141530,Italy,Venice,12.33265,45.43713,1807,2021,accurate,accurate,accurate
+02141555,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141555,Japan,NoInfo,139.75309,35.68536,1501,1600,approx,accurate,approx
+02141555,United States,NoInfo,-57.65625,-14.60485,1850,1950,approx,approx,approx
+02141555,United States,Urbana,-88.20727,40.11059,1965,2021,accurate,accurate,accurate
+02140612,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140612,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140612,Belgium,Brussels,4.34878,50.85045,1481,2021,accurate,NoInfo,accurate
+02140613,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140613,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140613,NoInfo,NoInfo,12.83333,42.83333,1501,1700,NoInfo,accurate,approx
+02140613,Italy,Rome,12.51133,41.89193,1570,1630,accurate,accurate,accurate
+02140613,United States,New Rochelle,-73.78235,40.91149,1920,1961,accurate,accurate,accurate
+02140613,Belgium,Brussels,4.34878,50.85045,1963,2021,accurate,accurate,accurate
+02141605,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141605,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141605,Russia,St Petersburg,30.31413,59.93863,1795,2021,accurate,accurate,accurate
+02141250,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141250,Italy,Florence,11.24626,43.77925,1512,1561,accurate,accurate,accurate
+02141250,Italy,San Gimignano,11.02975,43.4738,1530,1530,accurate,accurate,accurate
+02141250,United Kingdom,London,-0.12574,51.50853,1766,1827,accurate,accurate,accurate
+02141250,Netherlands,Gemeente Amsterdam,4.89856,52.37302,1981,2001,accurate,accurate,accurate
+02007303,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02007303,Italy,NoInfo,12.83333,42.83333,1481,1481,approx,NoInfo,NoInfo
+02007303,Italy,NoInfo,12.83333,42.83333,1501,1481,approx,accurate,NoInfo
+02007303,Italy,NoInfo,12.83333,42.83333,1501,1700,approx,accurate,approx
+02007303,Italy,Milan,9.19199,45.46416,1801,1700,accurate,accurate,NoInfo
+02007303,Italy,Milan,9.19199,45.46416,1801,1700,accurate,accurate,NoInfo
+02007303,Italy,Milan,9.19199,45.46416,1901,1700,accurate,accurate,NoInfo
+02007303,Italy,NoInfo,12.83333,42.83333,1901,2021,approx,NoInfo,accurate
+02141203,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141203,United States,Providence,-71.41283,41.82399,1907,1948,accurate,accurate,accurate
+02141203,United States,Providence,-71.41283,41.82399,1948,2021,accurate,accurate,accurate
+02140668,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140668,Germany,Hamburg,9.99302,53.55073,1481,2021,accurate,NoInfo,accurate
+02140701,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140701,Italy,Florence,11.24626,43.77925,1501,1600,accurate,accurate,approx
+02140701,Italy,Florence,11.24626,43.77925,1714,1861,accurate,accurate,accurate
+02140701,Italy,Florence,11.24626,43.77925,1861,2021,accurate,accurate,accurate
+02141556,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141556,Italy,Florence,11.24626,43.77925,1899,1899,accurate,accurate,accurate
+02141556,Italy,Treia,13.31036,43.3085,1899,1902,accurate,accurate,accurate
+02141556,United States,University of Notre Dame,-86.23917,41.7031,1902,2021,accurate,accurate,accurate
+02140623,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140623,NoInfo,Europe,9.14062,48.69096,1481,1481,accurate,accurate,NoInfo
+02140623,Italy,NoInfo,12.83333,42.83333,1659,1660,approx,accurate,accurate
+02140623,France,Carpentras,5.04813,44.05507,1683,1757,accurate,accurate,accurate
+02140623,France,Carpentras,5.04813,44.05507,1757,2021,accurate,accurate,accurate
+02141180,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141180,NoInfo,NoInfo,11.24626,43.77925,1801,2000,NoInfo,accurate,approx
+02141180,NoInfo,NoInfo,11.24626,43.77925,1850,1950,NoInfo,approx,approx
+02141180,United Kingdom,NoInfo,-2.69531,54.75844,1896,1921,approx,accurate,accurate
+02141180,United Kingdom,London,-0.12574,51.50853,1921,2021,accurate,accurate,accurate
+02141614,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141614,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141614,United States,Worcester,-71.80229,42.26259,1880,1929,accurate,accurate,accurate
+02141614,United States,South Hadley,-72.57453,42.25842,1880,1974,accurate,NoInfo,accurate
+02141614,United States,South Hadley,-72.57453,42.25842,1974,2021,accurate,accurate,accurate
+02141350,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141350,United Kingdom,NoInfo,-2.69531,54.75844,1701,1800,approx,accurate,approx
+02141350,United Kingdom,Blenheim Palace,-1.36667,51.85,1717,1804,accurate,accurate,accurate
+02141350,United Kingdom,Cambridge,0.11667,52.2,1804,2021,accurate,accurate,accurate
+02140616,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140616,Denmark,Copenhagen,12.56553,55.67594,1703,1785,accurate,accurate,accurate
+02140616,Denmark,Copenhagen,12.56553,55.67594,1792,2021,accurate,accurate,accurate
+02141622,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141622,Italy,NoInfo,12.83333,42.83333,1481,1481,approx,NoInfo,NoInfo
+02141622,Italy,Florence,11.24626,43.77925,1897,1910,accurate,accurate,accurate
+02141622,United States,Baltimore,-76.61219,39.29038,1910,1931,accurate,accurate,accurate
+02141622,United States,Baltimore,-76.61219,39.29038,1931,2021,accurate,accurate,accurate
+02141620,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141620,Italy,Florence,11.24626,43.77925,1897,1910,accurate,accurate,accurate
+02141620,United States,Baltimore,-76.61219,39.29038,1910,1931,accurate,accurate,accurate
+02141620,United States,Baltimore,-76.61219,39.29038,1931,2021,accurate,accurate,accurate
+02141625,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141625,Italy,Naples,14.26811,40.85216,1736,1950,accurate,accurate,approx
+02141627,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141627,NoInfo,Europe,9.14062,48.69096,1481,1600,accurate,accurate,approx
+02141627,NoInfo,NoInfo,9.14062,48.69096,1601,1700,NoInfo,accurate,approx
+02141627,Germany,Munich,11.57549,48.13743,1880,1979,accurate,accurate,accurate
+02141627,Vatican City,NoInfo,12.45414,41.90268,1979,2021,approx,accurate,accurate
+02141433,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141433,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02141433,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141433,NoInfo,NoInfo,12.83333,42.83333,1501,1600,NoInfo,accurate,approx
+02141433,Italy,Rome,12.51133,41.89193,1501,1923,accurate,NoInfo,accurate
+02141433,Vatican City,Vatican City,12.4533,41.90225,1923,2021,accurate,accurate,accurate
+02141428,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141428,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141428,Vatican City,NoInfo,12.45414,41.90268,1877,1921,approx,accurate,accurate
+02141428,Vatican City,Vatican City,12.4533,41.90225,1877,2021,accurate,NoInfo,accurate
+02140745,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140745,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140745,NoInfo,NoInfo,12.83333,42.83333,1801,1900,NoInfo,accurate,approx
+02140745,Italy,Naples,14.26811,40.85216,1804,2021,accurate,accurate,accurate
+02141554,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141554,Italy,Italy,12.83333,42.83333,1481,1500,accurate,accurate,approx
+02141554,Italy,Florence,11.24626,43.77925,1501,1600,accurate,accurate,approx
+02141554,United Kingdom,Oswestry,-3.05497,52.86195,1806,1843,accurate,accurate,accurate
+02141554,United States,Princeton,-74.65905,40.34872,1900,1955,accurate,approx,accurate
+02141554,United States,Princeton,-74.65905,40.34872,1955,2021,accurate,accurate,accurate
+02141630,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141630,NoInfo,NoInfo,11.24626,43.77925,1501,1600,NoInfo,accurate,approx
+02141630,United States,Brunswick,-69.96533,43.91452,1870,1915,accurate,accurate,accurate
+02141630,United States,Brunswick,-69.96533,43.91452,1970,2021,accurate,accurate,accurate
+02140711,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140711,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140711,Italy,Florence,11.24626,43.77925,1826,1834,accurate,accurate,accurate
+02140711,Italy,Florence,11.24626,43.77925,1850,2021,accurate,approx,accurate
+02141037,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141037,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02141037,Italy,Florence,11.24626,43.77925,1849,1874,accurate,accurate,accurate
+02141037,Italy,Florence,11.24626,43.77925,1874,1905,accurate,accurate,accurate
+02141037,Italy,Florence,11.24626,43.77925,1907,2021,accurate,accurate,accurate
+02126770,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02126770,NoInfo,NoInfo,11.24626,43.77925,1481,1500,NoInfo,accurate,approx
+02126770,NoInfo,NoInfo,11.24626,43.77925,1481,1500,NoInfo,accurate,approx
+02126770,NoInfo,NoInfo,11.24626,43.77925,1481,1500,NoInfo,accurate,approx
+02126770,NoInfo,NoInfo,11.24626,43.77925,1500,1560,NoInfo,approx,accurate
+02126770,United Kingdom,London,-0.12574,51.50853,1791,1791,accurate,accurate,accurate
+02126770,United Kingdom,Thenford,-1.24167,52.07689,1791,1816,accurate,accurate,accurate
+02126770,United Kingdom,London,-0.12574,51.50853,1816,1824,accurate,accurate,accurate
+02126770,United Kingdom,Thenford,-1.24167,52.07689,1824,1846,accurate,accurate,accurate
+02126770,United Kingdom,Thenford,-1.24167,52.07689,1846,1886,accurate,accurate,accurate
+02126770,United States,New York,-74.00597,40.71427,1886,1886,accurate,accurate,accurate
+02126770,Italy,NoInfo,12.83333,42.83333,1886,1904,approx,accurate,accurate
+02126770,Italy,NoInfo,12.83333,42.83333,1904,1905,approx,accurate,accurate
+02126770,Italy,Ravenna,12.20121,44.41344,1905,2021,accurate,accurate,accurate
+02140741,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140741,Italy,Florence,11.24626,43.77925,1562,1562,accurate,accurate,accurate
+02140741,NoInfo,NoInfo,11.24626,43.77925,1701,1800,NoInfo,accurate,approx
+02140741,Italy,Naples,14.26811,40.85216,1804,2021,accurate,accurate,accurate
+02141490,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141490,NoInfo,NoInfo,11.24626,43.77925,1501,1600,NoInfo,accurate,approx
+02141490,NoInfo,NoInfo,11.24626,43.77925,1501,1600,NoInfo,NoInfo,NoInfo
+02141490,Vatican City,NoInfo,12.45414,41.90268,1501,1930,approx,NoInfo,accurate
+02141490,United States,Washington,-77.03637,38.89511,1932,2021,accurate,accurate,accurate
+02141263,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141263,Italy,NoInfo,12.83333,42.83333,1481,1700,approx,accurate,approx
+02141263,United Kingdom,London,-0.12574,51.50853,1810,1843,accurate,accurate,accurate
+02141263,United Kingdom,NoInfo,-2.69531,54.75844,1845,1845,approx,accurate,accurate
+02141263,United Kingdom,NoInfo,-2.69531,54.75844,1845,1868,approx,accurate,accurate
+02141263,United Kingdom,London,-0.12574,51.50853,1868,1875,accurate,accurate,accurate
+02141263,United States,Boston,-71.05977,42.35843,1875,1919,accurate,accurate,accurate
+02141263,United States,Cambridge,-71.10561,42.3751,1919,2021,accurate,accurate,accurate
+02141270,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141270,NoInfo,NoInfo,11.24626,43.77925,1701,1800,NoInfo,accurate,approx
+02141270,United States,Cincinnati,-84.51439,39.12711,1820,1890,accurate,accurate,accurate
+02141270,United States,Chicago,-87.65005,41.85003,1890,2021,accurate,accurate,accurate
+02140994,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140994,France,Paris,2.3488,48.85341,1731,1788,accurate,accurate,accurate
+02140994,Germany,Hamburg,9.99302,53.55073,1731,1863,accurate,NoInfo,accurate
+02140994,Germany,Hamburg,9.99302,53.55073,1863,2021,accurate,accurate,accurate
+02141186,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141186,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02141186,Italy,Florence,11.24626,43.77925,1481,1500,accurate,accurate,NoInfo
+02141186,Italy,NoInfo,12.83333,42.83333,1501,1600,approx,accurate,approx
+02141186,United Kingdom,Althorp,-1.00095,52.28107,1807,1834,accurate,accurate,accurate
+02141186,NoInfo,,-1.00095,52.28107,1835,1892,accurate,accurate,accurate
+02141186,United Kingdom,Manchester,-2.23743,53.48095,1892,1892,accurate,accurate,accurate
+02141186,United Kingdom,Manchester,-2.23743,53.48095,1892,2021,accurate,accurate,accurate
+02141489,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141489,United Kingdom,London,-0.12574,51.50853,1860,1927,accurate,accurate,accurate
+02141489,United States,New York,-74.00597,40.71427,1860,1935,accurate,NoInfo,accurate
+02141489,United States,Jenkintown,-75.12517,40.09594,1935,1943,accurate,accurate,accurate
+02141489,United States,Washington,-77.03637,38.89511,1943,2021,accurate,accurate,accurate
+02140943,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140943,Belgium,Liège,5.56749,50.63373,1817,2021,accurate,accurate,accurate
+02140632,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140632,Italy,NoInfo,12.83333,42.83333,1500,1481,approx,approx,NoInfo
+02140632,Italy,Rome,12.51133,41.89193,1733,1783,accurate,accurate,accurate
+02140632,France,Paris,2.3488,48.85341,1788,1792,accurate,accurate,accurate
+02140632,France,Paris,2.3488,48.85341,1792,2021,accurate,accurate,accurate
+02141738,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141738,France,Paris,2.3488,48.85341,1481,1838,accurate,NoInfo,accurate
+02141738,France,Paris,2.3488,48.85341,1838,1838,accurate,accurate,accurate
+02141738,France,Paris,2.3488,48.85341,1838,2021,accurate,accurate,accurate
+02141737,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141737,France,Paris,2.3488,48.85341,1481,1784,accurate,NoInfo,accurate
+02141737,France,Paris,2.3488,48.85341,1784,2021,accurate,accurate,accurate
+02141741,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02001008,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02001008,United Kingdom,London,-0.12574,51.50853,1755,1846,accurate,accurate,accurate
+02001008,United Kingdom,London,-0.12574,51.50853,1847,2021,accurate,accurate,accurate
+02141599,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141599,NoInfo,NoInfo,11.24626,43.77925,1501,1600,NoInfo,accurate,approx
+02141599,Germany,Berlin,13.41053,52.52437,1800,1846,accurate,approx,accurate
+02141599,Germany,Berlin,13.41053,52.52437,1850,2021,accurate,approx,accurate
+02141629,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141629,NoInfo,NoInfo,11.24626,43.77925,1501,1600,NoInfo,accurate,approx
+02141629,Germany,Berlin,13.41053,52.52437,1880,1904,accurate,accurate,accurate
+02141629,Germany,Berlin,13.41053,52.52437,1906,2021,accurate,accurate,accurate
+02141643,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141643,NoInfo,NoInfo,11.24626,43.77925,1833,1861,NoInfo,accurate,accurate
+02141643,Switzerland,Cologny,6.18041,46.21672,1951,2021,accurate,accurate,accurate
+02140783,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140783,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140783,Italy,Siena,11.33064,43.31822,1758,2021,accurate,accurate,accurate
+02141600,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141600,Germany,Dresden,13.73832,51.05089,1853,1865,accurate,accurate,accurate
+02141600,Germany,Dresden,13.73832,51.05089,1853,2021,accurate,accurate,accurate
+02141601,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141601,Germany,Dresden,13.73832,51.05089,1481,2021,accurate,NoInfo,accurate
+02140795,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140795,Italy,NoInfo,12.83333,42.83333,1501,1700,approx,accurate,approx
+02140795,Italy,Trivignano,12.18687,45.53197,1701,1800,accurate,accurate,approx
+02140795,Italy,Treviso,12.2416,45.66673,1737,1810,accurate,accurate,accurate
+02140795,Italy,Treviso,12.2416,45.66673,1810,2021,accurate,accurate,accurate
+02140630,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140630,Italy,Venice,12.33092,45.4389,1481,1519,accurate,accurate,accurate
+02140630,Italy,Venice,12.33092,45.4389,1519,1547,accurate,accurate,accurate
+02140630,France,Paris,2.3488,48.85341,1801,2021,accurate,accurate,accurate
+02141192,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141192,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02141192,Italy,Italy,12.83333,42.83333,1550,1650,accurate,approx,approx
+02141192,United States,Boston,-71.05977,42.35843,1939,1939,accurate,accurate,accurate
+02141192,United States,Cambridge,-71.10561,42.3751,1939,1943,accurate,accurate,accurate
+02141192,United States,Cambridge,-71.10561,42.3751,1943,1943,accurate,accurate,accurate
+02141192,United States,Boston,-71.05977,42.35843,1943,2021,accurate,accurate,accurate
+02140648,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140648,Italy,Florence,11.24626,43.77925,1481,1501,accurate,accurate,accurate
+02140648,NoInfo,NoInfo,11.24626,43.77925,1500,1700,NoInfo,approx,approx
+02140648,Italy,Rome,12.51133,41.89193,1717,1799,accurate,accurate,accurate
+02140648,France,Paris,2.3488,48.85341,1717,2021,accurate,NoInfo,accurate
+02141739,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141739,France,Marseille,5.38107,43.29695,1766,1778,accurate,accurate,accurate
+02141739,France,Paris,2.3488,48.85341,1781,2021,accurate,accurate,accurate
+02141717,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141717,Austria,Vienna,16.37208,48.20849,1776,2021,accurate,accurate,accurate
+02141004,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141004,France,Besançon,6.01815,47.24878,1753,1826,accurate,accurate,accurate
+02141004,France,Besançon,6.01815,47.24878,1826,2021,accurate,accurate,accurate
+02144949,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02144949,Italy,NoInfo,12.83333,42.83333,1550,1650,approx,approx,approx
+02144949,France,NoInfo,2.0,46.0,1908,1908,approx,accurate,accurate
+02144949,United States,New York,-74.00597,40.71427,1908,1944,accurate,accurate,accurate
+02144949,United States,New York,-74.00597,40.71427,1922,2021,accurate,accurate,accurate
+02141557,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141557,Italy,Florence,11.24626,43.77925,1695,1758,accurate,accurate,accurate
+02141557,Italy,Florence,11.24626,43.77925,1749,1803,accurate,accurate,accurate
+02141557,NoInfo,NoInfo,11.24626,43.77925,1801,1900,NoInfo,accurate,approx
+02141557,United Kingdom,Sudbury,0.73117,52.0389,1825,1866,accurate,accurate,accurate
+02141557,United Kingdom,London,-0.12574,51.50853,1866,1919,accurate,accurate,accurate
+02141557,United Kingdom,Sonning,-0.91212,51.47411,1875,1937,accurate,accurate,accurate
+02141557,United States,Middletown,-72.65065,41.56232,1875,2021,accurate,NoInfo,accurate
+02144952,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02144952,France,Paris,2.3488,48.85341,1844,1884,accurate,accurate,accurate
+02144952,Italy,Rome,12.51133,41.89193,2007,1884,accurate,accurate,NoInfo
+02144952,Italy,Milan,9.18951,45.46427,2007,2021,accurate,accurate,accurate
+02141558,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141558,United States,New Haven,-72.92816,41.30815,1963,2021,accurate,accurate,accurate
+02141439,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141439,United States,Ithaca,-76.49661,42.44063,1865,2021,accurate,accurate,accurate
+02141267,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141267,United States,Claremont,-117.71978,34.09668,1927,2021,accurate,accurate,accurate
+02141440,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141440,United States,Bloomington,-86.52639,39.16533,1960,2021,accurate,accurate,accurate
+02001009,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02001009,Italy,NoInfo,12.83333,42.83333,1475,1525,approx,accurate,accurate
+02001009,Italy,NoInfo,12.83333,42.83333,1750,1825,approx,approx,accurate
+02001009,United Kingdom,London,-0.12574,51.50853,1842,2021,accurate,accurate,accurate
+02140856,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140856,Italy,Florence,11.24626,43.77925,1550,1605,accurate,approx,accurate
+02140856,United Kingdom,London,-0.12574,51.50853,1650,1757,accurate,approx,accurate
+02140856,United Kingdom,London,-0.12574,51.50853,1757,2021,accurate,accurate,accurate
+02140784,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140784,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02140784,Italy,Florence,11.24626,43.77925,1614,1500,accurate,accurate,NoInfo
+02140784,Italy,Siena,11.33064,43.31822,1758,2021,accurate,accurate,accurate
+02142781,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02142781,Italy,Florence,11.24626,43.77925,1812,1829,accurate,accurate,accurate
+02142781,Germany,Dresden,13.73832,51.05089,1840,1920,accurate,accurate,accurate
+02142781,Germany,Dresden,13.73832,51.05089,1920,1938,accurate,accurate,accurate
+02142781,Germany,Dresden,13.73832,51.05089,1938,1945,accurate,accurate,accurate
+02142781,Russia,Moscow,37.61556,55.75222,1945,2021,accurate,accurate,accurate
+02141086,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141086,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141086,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141086,Italy,NoInfo,12.83333,42.83333,1601,1700,approx,accurate,approx
+02141086,Germany,Munich,11.57549,48.13743,1800,1830,accurate,approx,accurate
+02141086,Italy,Novara,8.62118,45.44694,1800,1896,accurate,NoInfo,accurate
+02141086,Italy,Novara,8.62118,45.44694,1896,2021,accurate,accurate,accurate
+02141148,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141148,NoInfo,Europe,9.14062,48.69096,1501,1600,accurate,accurate,approx
+02141148,Japan,NoInfo,139.75309,35.68536,1701,1800,approx,accurate,approx
+02141148,Japan,NoInfo,139.75309,35.68536,1701,1800,approx,accurate,approx
+02141148,United Kingdom,Edensor,-1.62576,53.22662,1811,1844,accurate,accurate,accurate
+02141148,United Kingdom,Chatsworth House,-1.6,53.21667,1844,2021,accurate,accurate,accurate
+02141598,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141598,Germany,Munich,11.57549,48.13743,1481,2021,accurate,NoInfo,accurate
+02141603,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141603,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141603,Japan,NoInfo,139.75309,35.68536,1701,1800,approx,accurate,approx
+02141603,NoInfo,NoInfo,139.75309,35.68536,1950,1980,NoInfo,approx,accurate
+02141603,Italy,Turin,7.68682,45.07049,1950,2013,accurate,NoInfo,accurate
+02141603,Switzerland,Geneva,6.14569,46.20222,2013,2021,accurate,accurate,accurate
+02141143,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141143,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02141143,United Kingdom,NoInfo,-2.69531,54.75844,1813,1857,approx,accurate,accurate
+02141143,United Kingdom,London,-0.12574,51.50853,1857,1857,accurate,accurate,accurate
+02141143,United Kingdom,London,-0.12574,51.50853,1860,1860,accurate,accurate,accurate
+02141143,United Kingdom,London,-0.12574,51.50853,1862,1862,accurate,accurate,accurate
+02141143,United Kingdom,Crowan,-5.32303,50.16782,1862,1863,accurate,accurate,accurate
+02141143,United Kingdom,Cambridge,0.11667,52.2,1863,2021,accurate,accurate,accurate
+02140676,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140676,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140676,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140676,Italy,NoInfo,12.83333,42.83333,1501,1600,approx,accurate,approx
+02140676,Italy,NoInfo,12.83333,42.83333,1501,1600,approx,accurate,approx
+02140676,Italy,NoInfo,12.83333,42.83333,1501,1600,approx,accurate,approx
+02140676,Italy,Florence,11.24626,43.77925,1510,1537,accurate,accurate,accurate
+02140676,Italy,Florence,11.24626,43.77925,1540,1599,accurate,accurate,accurate
+02140676,Italy,Florence,11.24626,43.77925,1593,1647,accurate,accurate,accurate
+02140676,Italy,Florence,11.24626,43.77925,1620,1620,accurate,accurate,accurate
+02140676,France,Nancy,6.18496,48.68439,1740,1799,accurate,accurate,accurate
+02140676,Germany,Ludwigsburg,9.19161,48.89731,1740,1799,accurate,NoInfo,NoInfo
+02140676,Germany,Stuttgart,9.1775,48.77667,1740,2021,accurate,NoInfo,accurate
+02142772,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02142772,NoInfo,NoInfo,11.24626,43.77925,1501,1600,NoInfo,accurate,approx
+02142772,Italy,NoInfo,12.83333,42.83333,1668,1668,approx,accurate,accurate
+02142772,Italy,Florence,11.24626,43.77925,1701,1800,accurate,accurate,approx
+02142772,Japan,NoInfo,139.75309,35.68536,1701,1800,approx,accurate,approx
+02142772,Brazil,Rio de Janeiro,-43.18223,-22.90642,1849,1923,accurate,accurate,accurate
+02142772,Brazil,Rio de Janeiro,-43.18223,-22.90642,1928,2021,accurate,accurate,accurate
+02001010,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02001010,United Kingdom,NoInfo,-2.69531,54.75844,1700,1800,approx,approx,approx
+02001010,United Kingdom,London,-0.12574,51.50853,1790,1799,accurate,accurate,accurate
+02001010,United Kingdom,London,-0.12574,51.50853,1799,2021,accurate,accurate,accurate
+02142777,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02142777,Germany,Dresden,13.73832,51.05089,1556,1945,accurate,accurate,accurate
+02142777,Russia,Moscow,37.61556,55.75222,1945,2021,accurate,accurate,accurate
+00559810,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+00559810,Italy,NoInfo,12.83333,42.83333,1481,1700,approx,accurate,approx
+00559810,United Kingdom,Kew,-0.28749,51.48165,1728,1805,accurate,accurate,accurate
+00559810,United Kingdom,London,-0.12574,51.50853,1805,1835,accurate,accurate,accurate
+00559810,United Kingdom,NoInfo,-2.69531,54.75844,1844,1910,approx,accurate,accurate
+00559810,United Kingdom,Cambridge,0.11667,52.2,1910,2021,accurate,accurate,accurate
+02140828,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140828,NoInfo,NoInfo,11.24626,43.77925,1481,1481,NoInfo,NoInfo,NoInfo
+02140828,Germany,Dresden,13.73832,51.05089,1819,1886,accurate,accurate,accurate
+02140828,Germany,Leipzig,12.37129,51.33962,1886,1945,accurate,accurate,accurate
+02140828,Russia,Moscow,37.61556,55.75222,1945,2021,accurate,accurate,accurate
+02140829,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140829,Russia,St Petersburg,30.31413,59.93863,1820,1869,accurate,accurate,accurate
+02140829,Russia,Moscow,37.61556,55.75222,1869,1924,accurate,accurate,accurate
+02140829,Russia,Moscow,37.61556,55.75222,1924,2021,accurate,accurate,accurate
+02141491,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141491,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02141491,Italy,Chiusa di Pesio,7.67431,44.32588,1650,1650,accurate,approx,approx
+02141491,United Kingdom,London,-0.12574,51.50853,1841,1883,accurate,accurate,accurate
+02141491,United States,Oakland,-122.2708,37.80437,1877,1948,accurate,accurate,accurate
+02141491,United States,Oakland,-122.2708,37.80437,1948,2021,accurate,accurate,accurate
+02142782,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02142782,United Kingdom,London,-0.12574,51.50853,1835,1845,accurate,accurate,accurate
+02142782,United Kingdom,London,-0.12574,51.50853,1845,2021,accurate,accurate,accurate
+02141147,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141147,Italy,Florence,11.24626,43.77925,1554,1571,accurate,accurate,accurate
+02141147,United Kingdom,London,-0.12574,51.50853,1645,1645,accurate,accurate,accurate
+02141147,United Kingdom,Cambridge,0.11667,52.2,1645,2021,accurate,NoInfo,accurate
+02140991,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140991,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140991,Italy,Naples,14.26811,40.85216,1481,1600,accurate,NoInfo,NoInfo
+02140991,United Kingdom,NoInfo,-2.69531,54.75844,1781,1833,approx,accurate,accurate
+02140991,France,Tours,0.70398,47.39484,1781,1972,accurate,NoInfo,accurate
+02140991,France,Tours,0.70398,47.39484,1972,2021,accurate,accurate,accurate
+02138497,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02138497,NoInfo,NoInfo,11.24626,43.77925,1501,1600,NoInfo,accurate,approx
+02138497,Netherlands,Gemeente Den Haag,4.28635,52.06866,1824,1848,accurate,accurate,accurate
+02138497,Netherlands,Gemeente Den Haag,4.28635,52.06866,1824,2021,accurate,NoInfo,accurate
+02129250,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02129250,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02129250,United Kingdom,NoInfo,-2.69531,54.75844,1800,1848,approx,approx,accurate
+02129250,United Kingdom,London,-0.12574,51.50853,1849,1878,accurate,accurate,accurate
+02129250,United Kingdom,Fosbury,-1.54255,51.32029,1878,1910,accurate,accurate,accurate
+02129250,United Kingdom,London,-0.12574,51.50853,1912,1912,accurate,accurate,accurate
+02129250,United Kingdom,London,-0.12574,51.50853,1912,1912,accurate,accurate,NoInfo
+02129250,United States,San Marino,-118.10646,34.1214,1918,1927,accurate,accurate,accurate
+02129250,United States,San Marino,-118.10646,34.1214,1927,2021,accurate,accurate,accurate
+02141115,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141115,NoInfo,NoInfo,11.24626,43.77925,1481,1481,NoInfo,NoInfo,NoInfo
+02141115,Ukraine,Lviv,24.02324,49.83826,1481,1853,accurate,NoInfo,accurate
+02141115,Ukraine,Lviv,24.02324,49.83826,1853,1946,accurate,accurate,accurate
+02141115,Poland,Wroclaw,17.03333,51.1,1946,2021,accurate,accurate,accurate
+02013774,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02013774,NoInfo,NoInfo,11.24626,43.77925,1600,1800,NoInfo,approx,approx
+02013774,NoInfo,NoInfo,11.24626,43.77925,1600,1700,NoInfo,approx,approx
+02013774,NoInfo,NoInfo,11.24626,43.77925,1800,1900,NoInfo,approx,approx
+02013774,NoInfo,NoInfo,11.24626,43.77925,1481,1600,NoInfo,accurate,approx
+02013774,United Kingdom,London,-0.12574,51.50853,1800,1820,accurate,approx,accurate
+02013774,United Kingdom,London,-0.12574,51.50853,1820,1853,accurate,accurate,accurate
+02013774,United Kingdom,London,-0.12574,51.50853,1853,1882,accurate,accurate,accurate
+02013774,United States,Latrobe,-79.37948,40.32118,1960,1999,accurate,accurate,accurate
+02013774,United States,New York,-74.00597,40.71427,2000,2000,accurate,approx,approx
+02013774,United Kingdom,London,-0.12574,51.50853,2015,2015,accurate,accurate,accurate
+02013774,Greece,Athens,23.72784,37.98376,2015,2015,accurate,accurate,accurate
+02013774,Greece,Athens,23.72784,37.98376,2015,2021,accurate,accurate,accurate
+02016450,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02016450,Slovenia,Koper,13.72944,45.54694,1481,1488,accurate,accurate,accurate
+02016450,Italy,NoInfo,12.83333,42.83333,1488,1525,approx,accurate,accurate
+02016450,Italy,Florence,11.24626,43.77925,1545,1625,accurate,accurate,accurate
+02016450,Italy,Venice,12.33265,45.43713,1690,1750,accurate,accurate,approx
+02016450,Italy,Venice,12.33265,45.43713,1750,1810,accurate,approx,accurate
+02016450,Italy,Venice,12.33265,45.43713,1810,2021,accurate,accurate,accurate
+02128758,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02128758,Italy,Italy,12.83333,42.83333,1481,1500,accurate,accurate,approx
+02128758,Italy,Italy,12.83333,42.83333,1650,1750,accurate,approx,approx
+02128758,United States,New York,-74.00597,40.71427,1901,1907,accurate,accurate,accurate
+02128758,United States,New York,-74.00597,40.71427,1907,1907,accurate,accurate,NoInfo
+02128758,United States,Wellesley,-71.29256,42.29649,1907,2021,accurate,accurate,accurate
+02140739,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140739,Italy,NoInfo,12.83333,42.83333,1601,1700,approx,accurate,approx
+02140739,NoInfo,NoInfo,12.83333,42.83333,1801,1900,NoInfo,accurate,approx
+02140739,Italy,Modena,10.92539,44.64783,1900,1970,accurate,approx,accurate
+02140739,Italy,Modena,10.92539,44.64783,1970,2021,accurate,accurate,accurate
+02141240,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141240,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141240,NoInfo,NoInfo,12.83333,42.83333,1700,1800,NoInfo,approx,approx
+02141240,United Kingdom,Glasgow,-4.25763,55.86515,1700,1848,accurate,NoInfo,accurate
+02141240,United Kingdom,Glasgow,-4.25763,55.86515,1848,1848,accurate,accurate,NoInfo
+02141240,United Kingdom,Glasgow,-4.25763,55.86515,1874,1848,accurate,accurate,NoInfo
+02141240,United Kingdom,Glasgow,-4.25763,55.86515,1874,2021,accurate,accurate,accurate
+02140723,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140723,Italy,NoInfo,12.83333,42.83333,1501,1700,approx,accurate,approx
+02140723,Italy,Genoa,8.94439,44.40478,1852,1935,accurate,accurate,accurate
+02140723,Italy,Genoa,8.94439,44.40478,1900,2021,accurate,approx,accurate
+02140988,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140988,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02140988,France,Marseille,5.38107,43.29695,1840,1886,accurate,accurate,accurate
+02140988,France,Paris,2.3488,48.85341,1902,2021,accurate,accurate,accurate
+02140750,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140750,Italy,Naples,14.26811,40.85216,1812,1815,accurate,accurate,accurate
+02140750,Italy,Naples,14.26811,40.85216,1816,2021,accurate,accurate,accurate
+02140752,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140752,Italy,NoInfo,12.83333,42.83333,1481,1800,approx,accurate,approx
+02140752,Italy,Pisa,10.4036,43.70853,1481,1800,accurate,NoInfo,NoInfo
+02140752,Italy,Pisa,10.4036,43.70853,1742,2021,accurate,accurate,accurate
+02140760,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140760,Italy,Poppi,11.76642,43.72123,1745,1825,accurate,accurate,accurate
+02140760,Italy,Poppi,11.76642,43.72123,1825,2021,accurate,accurate,accurate
+02140687,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140687,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02140687,Italy,Bologna,11.43333,44.46667,1712,2021,accurate,accurate,accurate
+02117472,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02117472,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02117472,Austria,Vienna,16.37169,48.2082,1807,2021,accurate,accurate,accurate
+02141109,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141109,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141109,Italy,Pavia,9.15917,45.19205,1754,1835,accurate,accurate,accurate
+02141109,Italy,Pavia,9.15917,45.19205,1835,2021,accurate,accurate,accurate
+02141099,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141099,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141099,Italy,Florence,11.24626,43.77925,1750,1791,accurate,approx,accurate
+02141099,Italy,Florence,11.24626,43.77925,1791,1803,accurate,accurate,accurate
+02141099,Italy,Verona,10.98444,45.4299,1791,1808,accurate,accurate,accurate
+02141099,Italy,Verona,10.98444,45.4299,1821,2021,accurate,accurate,accurate
+02141102,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141102,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02141102,NoInfo,NoInfo,12.83333,42.83333,1501,1600,NoInfo,accurate,approx
+02141102,Latvia,Iecava,24.20763,56.59766,1834,1908,accurate,accurate,accurate
+02141102,Latvia,Riga,24.10589,56.946,1919,2021,accurate,accurate,accurate
+02141016,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141016,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02141016,Italy,NoInfo,12.83333,42.83333,1501,1600,approx,accurate,approx
+02141016,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141016,Italy,Bibbiena,11.81474,43.69876,1481,1985,accurate,accurate,accurate
+02141016,Italy,Figline Valdarno,11.47191,43.61995,1926,2021,accurate,accurate,accurate
+02141110,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141110,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141110,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141110,Italy,NoInfo,12.83333,42.83333,1800,2021,approx,approx,accurate
+02141427,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141427,Italy,NoInfo,12.83333,42.83333,1601,1700,approx,accurate,approx
+02141427,Vatican City,Vatican City,12.4533,41.90225,1700,2021,accurate,approx,accurate
+02141456,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141456,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141456,Italy,NoInfo,12.83333,42.83333,1501,1600,approx,accurate,approx
+02141456,NoInfo,NoInfo,12.83333,42.83333,1719,1720,NoInfo,accurate,accurate
+02141456,Italy,Rome,12.51133,41.89193,1913,2021,accurate,accurate,accurate
+02140731,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140731,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140731,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140731,Italy,Savona,8.47715,44.30905,1647,1647,accurate,accurate,accurate
+02140731,Italy,Lucca,10.50447,43.84369,1794,2021,accurate,accurate,accurate
+02141434,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141434,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02141434,Italy,San Casciano in Val di Pesa,11.18494,43.65975,1481,1500,accurate,accurate,NoInfo
+02141434,Italy,NoInfo,12.83333,42.83333,1601,1700,approx,accurate,approx
+02141434,Italy,NoInfo,12.83333,42.83333,1501,1700,approx,accurate,approx
+02141434,Italy,Rome,12.51133,41.89193,1722,1746,accurate,accurate,accurate
+02141434,Vatican City,Vatican City,12.4533,41.90225,1746,2021,accurate,accurate,accurate
+02141204,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141204,Italy,Florence,11.24626,43.77925,1481,1503,accurate,accurate,accurate
+02141204,NoInfo,Europe,9.14062,48.69096,1501,1600,accurate,accurate,approx
+02141204,Italy,Florence,11.24626,43.77925,1728,1728,accurate,accurate,accurate
+02141204,Italy,Bologna,11.33875,44.49381,1871,1871,accurate,accurate,accurate
+02141204,United States,Cambridge,-71.10561,42.3751,1871,1905,accurate,accurate,accurate
+02141204,United States,Cambridge,-71.10561,42.3751,1905,2021,accurate,accurate,accurate
+02141492,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141492,Italy,Naples,14.26811,40.85216,1747,1825,accurate,accurate,accurate
+02141492,United Kingdom,Althorp,-1.00095,52.28107,1819,1834,accurate,accurate,accurate
+02141492,United States,New York,-74.00597,40.71427,1855,1912,accurate,accurate,accurate
+02141492,United States,New York,-74.00597,40.71427,1913,2021,accurate,accurate,accurate
+02145052,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02145052,Italy,NoInfo,12.83333,42.83333,1500,1600,approx,approx,approx
+02145052,Italy,Florence,11.24626,43.77925,1500,1600,accurate,approx,approx
+02145052,United Kingdom,Narford,0.61667,52.68333,1714,1902,accurate,accurate,accurate
+02145052,United Kingdom,London,-0.12574,51.50853,1902,1918,accurate,accurate,accurate
+02145052,United States,Newport,-71.31283,41.4901,1919,1933,accurate,accurate,accurate
+02145052,United States,New York,-74.00597,40.71427,1934,1949,accurate,accurate,accurate
+02145052,United States,New York,-74.00597,40.71427,1953,1958,accurate,accurate,accurate
+02145052,United States,New York,-74.00597,40.71427,1958,1958,accurate,accurate,accurate
+02145052,Germany,Schweinfurt,10.22175,50.04937,1958,1994,accurate,accurate,accurate
+02141553,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141553,Italy,Florence,11.24626,43.77925,1481,1550,accurate,accurate,approx
+02141553,NoInfo,,11.24626,43.77925,1481,1550,accurate,accurate,NoInfo
+02141553,United Kingdom,London,-0.12574,51.50853,1743,1815,accurate,accurate,accurate
+02141553,United Kingdom,Althorp,-1.00095,52.28107,1815,1821,accurate,accurate,accurate
+02141553,United Kingdom,London,-0.12574,51.50853,1821,1821,accurate,accurate,accurate
+02141553,United Kingdom,Stowe,-1.01815,52.03127,1821,1839,accurate,accurate,accurate
+02141553,United Kingdom,London,-0.12574,51.50853,1839,1849,accurate,accurate,accurate
+02141553,United Kingdom,London,-0.12574,51.50853,1849,1884,accurate,accurate,accurate
+02141553,United Kingdom,London,-0.12574,51.50853,1884,1884,accurate,accurate,accurate
+02141553,NoInfo,,-0.12574,51.50853,1884,1891,accurate,accurate,accurate
+02141553,United Kingdom,London,-0.12574,51.50853,1891,1891,accurate,accurate,accurate
+02141553,Italy,Naples,14.26811,40.85216,1891,1894,accurate,accurate,accurate
+02141553,United Kingdom,Skirling,-3.46807,55.63594,1894,1903,accurate,accurate,accurate
+02141553,United States,New York,-74.00597,40.71427,1903,1924,accurate,accurate,accurate
+02141553,United States,New York,-74.00597,40.71427,1924,2021,accurate,accurate,accurate
+02141227,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141227,United Kingdom,Queensferry,-3.39847,55.99089,1481,1889,accurate,NoInfo,accurate
+02141227,United Kingdom,Oxford,-1.25596,51.75222,1889,2021,accurate,accurate,accurate
+02140776,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140776,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02140776,NoInfo,NoInfo,12.83333,42.83333,1481,1576,NoInfo,accurate,accurate
+02140776,Italy,Rome,12.51133,41.89193,1601,2021,accurate,accurate,accurate
+02141400,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141400,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02141400,United Kingdom,London,-0.12574,51.50853,1674,1722,accurate,accurate,accurate
+02141400,United Kingdom,Woodstock,-1.35132,51.8485,1749,1881,accurate,accurate,accurate
+02141400,United States,New York,-74.00597,40.71427,1870,1908,accurate,accurate,accurate
+02141400,United States,New York,-74.00597,40.71427,1912,1912,accurate,accurate,accurate
+02141400,France,Paris,2.3488,48.85341,1958,1912,accurate,accurate,NoInfo
+02141400,Japan,Tokyo,139.69171,35.6895,1958,2008,accurate,NoInfo,accurate
+02141400,Japan,Tokyo,139.69171,35.6895,2008,2021,accurate,accurate,accurate
+02140685,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140685,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02140685,Italy,NoInfo,12.83333,42.83333,1579,1579,approx,accurate,accurate
+02140685,Italy,NoInfo,12.83333,42.83333,1579,1579,approx,accurate,accurate
+02140685,Italy,NoInfo,12.83333,42.83333,1591,1591,approx,accurate,accurate
+02140685,Italy,Arezzo,11.88068,43.46276,1609,2021,accurate,accurate,accurate
+02140732,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140732,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140732,Italy,Lucca,10.50447,43.84369,1886,2021,accurate,accurate,accurate
+02141029,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141029,Italy,NoInfo,12.83333,42.83333,1481,1550,approx,accurate,approx
+02141029,Italy,Florence,11.24626,43.77925,1613,1613,accurate,accurate,accurate
+02141029,NoInfo,,11.24626,43.77925,1690,1690,accurate,accurate,accurate
+02141029,Italy,Florence,11.24626,43.77925,1690,1712,accurate,accurate,accurate
+02141029,Italy,Ravenna,12.20121,44.41344,1970,2021,accurate,accurate,accurate
+02141588,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141588,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02141588,Italy,NoInfo,12.83333,42.83333,1501,1600,approx,accurate,approx
+02141588,NoInfo,NoInfo,12.83333,42.83333,1601,1700,NoInfo,accurate,approx
+02141588,Germany,Dresden,13.73832,51.05089,1793,1865,accurate,accurate,accurate
+02141588,Germany,Hanover,9.73322,52.37052,1831,1870,accurate,accurate,accurate
+02141588,United Kingdom,East of England,0.50415,52.24067,1870,1870,accurate,accurate,NoInfo
+02141588,Austria,Vienna,16.37208,48.20849,1853,1870,accurate,accurate,NoInfo
+02141588,Belarus,Minsk,27.56667,53.9,1922,2021,accurate,accurate,accurate
+02141168,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141168,Italy,NoInfo,12.83333,42.83333,1500,1599,approx,approx,accurate
+02141168,Italy,Turin,7.68682,45.07049,1720,2021,accurate,accurate,accurate
+02140634,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140634,NoInfo,NoInfo,11.24626,43.77925,1481,1700,NoInfo,accurate,approx
+02140634,Italy,NoInfo,12.83333,42.83333,1690,1690,approx,accurate,accurate
+02140634,France,Paris,2.3488,48.85341,1829,1906,accurate,accurate,accurate
+02140634,France,Paris,2.3488,48.85341,1913,2021,accurate,accurate,accurate
+02141251,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141251,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141251,NoInfo,NoInfo,12.83333,42.83333,1481,1600,NoInfo,NoInfo,NoInfo
+02141251,United States,Cambridge,-71.10561,42.3751,1816,1871,accurate,accurate,accurate
+02141251,NoInfo,NoInfo,-71.10561,42.3751,1896,2021,NoInfo,accurate,accurate
+02140686,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140686,Italy,Florence,11.24626,43.77925,1501,1600,accurate,accurate,approx
+02140686,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140686,Italy,Bologna,11.33875,44.49381,1775,1847,accurate,accurate,accurate
+02140686,Italy,Bologna,11.43333,44.46667,1847,2021,accurate,accurate,accurate
+02141596,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141596,Italy,Florence,11.24626,43.77925,1582,1582,accurate,accurate,accurate
+02141596,Italy,NoInfo,12.83333,42.83333,1601,1700,approx,accurate,approx
+02141596,Italy,Milan,9.18951,45.46427,1801,1801,accurate,accurate,accurate
+02141596,NoInfo,NoInfo,9.18951,45.46427,1850,1900,NoInfo,approx,approx
+02141596,Germany,Mönchengladbach,6.44172,51.18539,1900,1943,accurate,approx,accurate
+02141596,Germany,Cologne,6.95,50.93333,1964,2021,accurate,accurate,accurate
+02140704,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140704,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02140704,Italy,Florence,11.24626,43.77925,1528,1528,accurate,accurate,accurate
+02140704,Italy,Florence,11.24626,43.77925,1528,1809,accurate,accurate,accurate
+02140704,Italy,Florence,11.24626,43.77925,1809,1861,accurate,accurate,accurate
+02140704,Italy,Florence,11.24626,43.77925,1861,2021,accurate,accurate,accurate
+02141035,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141035,Italy,NoInfo,12.83333,42.83333,1501,1600,approx,accurate,approx
+02141035,Italy,NoInfo,12.83333,42.83333,1501,1700,approx,accurate,approx
+02141035,Italy,Prato,11.09699,43.8805,1607,1607,accurate,accurate,accurate
+02141035,Italy,Florence,11.24626,43.77925,1849,1874,accurate,accurate,accurate
+02141035,Italy,Florence,11.24626,43.77925,1874,1905,accurate,accurate,accurate
+02141035,Italy,Florence,11.24626,43.77925,1907,2021,accurate,accurate,accurate
+02140738,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140738,Italy,Florence,11.24626,43.77925,1521,1521,accurate,accurate,accurate
+02140738,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02140738,Italy,Modena,10.92539,44.64783,1481,1829,accurate,NoInfo,accurate
+02140738,Italy,Modena,10.92539,44.64783,1829,2021,accurate,accurate,accurate
+02141048,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141048,Italy,NoInfo,12.83333,42.83333,1501,1600,approx,accurate,approx
+02141048,Italy,Barga,10.47789,44.0731,1699,1699,accurate,accurate,accurate
+02141048,Italy,Livorno,10.32615,43.54427,1700,1869,accurate,approx,accurate
+02141048,Italy,Livorno,10.32615,43.54427,1869,2021,accurate,accurate,accurate
+02140700,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140700,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02140700,Italy,Florence,11.24626,43.77925,1481,1500,accurate,accurate,approx
+02140700,Italy,Florence,11.24626,43.77925,1714,1861,accurate,accurate,accurate
+02140700,Italy,Florence,11.24626,43.77925,1861,2021,accurate,accurate,accurate
+02140703,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140703,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02140703,Italy,Pisa,10.4036,43.70853,1500,1556,accurate,approx,accurate
+02140703,Italy,Florence,11.24626,43.77925,1745,1801,accurate,accurate,accurate
+02140703,Italy,Florence,11.24626,43.77925,1830,1830,accurate,accurate,accurate
+02140703,Italy,Florence,11.24626,43.77925,1861,2021,accurate,accurate,accurate
+02141082,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141082,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141082,Italy,Florence,11.24626,43.77925,1714,1861,accurate,accurate,accurate
+02141082,United Kingdom,Edinburgh,-3.19648,55.95206,1807,1861,accurate,accurate,NoInfo
+02141082,United Kingdom,Edinburgh,-3.19648,55.95206,1925,2021,accurate,accurate,accurate
+02141097,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141097,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02141097,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141097,Italy,Pisa,10.4036,43.70853,1481,1550,accurate,accurate,approx
+02141097,Italy,NoInfo,12.83333,42.83333,1601,1700,approx,accurate,approx
+02141097,NoInfo,NoInfo,12.83333,42.83333,1750,1800,NoInfo,approx,approx
+02141097,Germany,Frankfurt am Main,8.68417,50.11552,1812,1812,accurate,accurate,accurate
+02141097,NoInfo,NoInfo,8.68417,50.11552,1812,1898,NoInfo,NoInfo,accurate
+02141097,Italy,Trieste,13.77678,45.64953,1898,1920,accurate,accurate,accurate
+02141097,Italy,Rome,12.51133,41.89193,1918,2021,accurate,accurate,accurate
+02140725,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140725,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140725,NoInfo,NoInfo,12.83333,42.83333,1550,1600,NoInfo,approx,approx
+02140725,Italy,Milan,9.18951,45.46427,1730,1789,accurate,accurate,accurate
+02140725,Netherlands,Amsterdam,4.88969,52.37403,1789,1789,accurate,accurate,accurate
+02140725,Italy,Genoa,8.94439,44.40478,1789,1812,accurate,accurate,accurate
+02140725,Italy,Genoa,8.94439,44.40478,1812,2021,accurate,accurate,accurate
+02141098,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141098,Italy,Florence,11.24626,43.77925,1501,1600,accurate,accurate,approx
+02141098,Italy,Sassari,8.55552,40.72586,1800,1874,accurate,approx,accurate
+02141098,Italy,Sassari,8.55552,40.72586,1875,2021,accurate,accurate,accurate
+02140849,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140849,NoInfo,NoInfo,11.24626,43.77925,1501,1700,NoInfo,accurate,approx
+02140849,Japan,NoInfo,139.75309,35.68536,1801,1900,approx,accurate,approx
+02140849,Spain,Cambrils,1.05949,41.06997,1900,1969,accurate,approx,accurate
+02140849,Spain,Barcelona,2.15899,41.38879,1888,1958,accurate,accurate,accurate
+02140849,Spain,Barcelona,2.15899,41.38879,1959,2021,accurate,accurate,accurate
+02141338,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141338,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141338,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02141338,Italy,Palermo,13.33561,38.13205,1481,1981,accurate,NoInfo,accurate
+02141338,Italy,Palermo,13.33561,38.13205,1981,2021,accurate,accurate,accurate
+02140675,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140675,Italy,NoInfo,12.83333,42.83333,1550,1792,approx,approx,accurate
+02140675,Austria,Vienna,16.37208,48.20849,1792,1824,accurate,accurate,accurate
+02140675,Germany,Munich,11.57549,48.13743,1806,2021,accurate,accurate,accurate
+02140751,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140751,Italy,NoInfo,12.83333,42.83333,1501,1600,approx,accurate,approx
+02140751,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140751,NoInfo,NoInfo,12.83333,42.83333,1701,1900,NoInfo,accurate,approx
+02140751,Italy,Parma,10.32618,44.79935,1761,2021,accurate,accurate,accurate
+02140709,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140709,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140709,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140709,Italy,NoInfo,12.83333,42.83333,1481,1600,approx,accurate,approx
+02140709,Italy,Florence,11.24626,43.77925,1811,2021,accurate,accurate,accurate
+02140855,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140855,NoInfo,NoInfo,11.24626,43.77925,1501,1600,NoInfo,accurate,approx
+02140855,Italy,Florence,11.24626,43.77925,1501,1600,accurate,accurate,approx
+02140855,Japan,NoInfo,139.75309,35.68536,1800,1900,approx,approx,approx
+02140855,Sweden,Uppsala,17.63889,59.85882,1800,2021,accurate,NoInfo,accurate
+02140770,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140770,Italy,NoInfo,12.83333,42.83333,1501,1600,approx,accurate,approx
+02140770,Italy,NoInfo,12.83333,42.83333,1501,1600,approx,accurate,approx
+02140770,Italy,Rome,12.51133,41.89193,1851,2021,accurate,accurate,accurate
+02141191,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141191,Italy,Venice,12.33265,45.43713,1696,1800,accurate,accurate,approx
+02141191,United Kingdom,Oxford,-1.25596,51.75222,1803,2021,accurate,accurate,accurate
+02141108,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141108,Spain,NoInfo,-4.0,40.0,1481,1500,approx,accurate,approx
+02141108,Spain,NoInfo,-4.0,40.0,1615,1615,approx,accurate,accurate
+02141108,Spain,Santiago de Compostela,-8.54569,42.88052,1615,2021,accurate,NoInfo,accurate
+02011395,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02011395,Italy,Florence,11.24626,43.77925,1481,1600,accurate,NoInfo,approx
+02011395,NoInfo,NoInfo,11.24626,43.77925,1801,1600,NoInfo,accurate,NoInfo
+02011395,Italy,NoInfo,12.83333,42.83333,1801,1600,approx,NoInfo,NoInfo
+02011395,NoInfo,NoInfo,12.83333,42.83333,1801,1600,NoInfo,NoInfo,NoInfo
+02011395,Italy,NoInfo,12.83333,42.83333,1801,2021,approx,NoInfo,accurate
+02141034,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141034,Italy,Florence,11.24626,43.77925,1496,1528,accurate,accurate,accurate
+02141034,Italy,NoInfo,12.83333,42.83333,1990,2021,approx,accurate,accurate
+02140961,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140961,France,Paris,2.3488,48.85341,1853,1917,accurate,accurate,accurate
+02140961,France,Paris,2.3488,48.85341,1917,2003,accurate,accurate,accurate
+02140961,France,Paris,2.3488,48.85341,2003,2021,accurate,accurate,accurate
+02141280,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141280,Italy,Milan,9.18951,45.46427,1500,1566,accurate,approx,accurate
+02141280,NoInfo,Europe,9.14062,48.69096,1500,1566,accurate,NoInfo,NoInfo
+02141280,United Kingdom,Sudbury,0.73117,52.0389,1825,1866,accurate,accurate,accurate
+02141280,United Kingdom,London,-0.12574,51.50853,1918,1927,accurate,accurate,accurate
+02141280,United States,Charlottesville,-78.47668,38.02931,1928,1960,accurate,accurate,accurate
+02141280,Italy,Fratta Polesine,11.64265,45.02819,1960,1987,accurate,accurate,accurate
+02141280,United States,Stanford,-122.16608,37.42411,1987,2021,accurate,accurate,accurate
+00201623,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+00201623,Italy,Italy,12.83333,42.83333,1481,1600,accurate,accurate,approx
+00201623,Italy,Venice,12.33265,45.43713,1735,1789,accurate,accurate,accurate
+00201623,United Kingdom,Merthyr Mawr,-3.60861,51.48611,1823,1869,accurate,accurate,accurate
+00201623,United Kingdom,England,-0.70312,52.16045,1870,1936,accurate,accurate,accurate
+00201623,United States,Boston,-71.05977,42.35843,1936,1951,accurate,accurate,accurate
+00201623,United States,Cambridge,-71.10561,42.3751,1951,2021,accurate,accurate,accurate
+02140702,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140702,Italy,NoInfo,12.83333,42.83333,1501,1550,approx,accurate,approx
+02140702,Italy,Florence,11.24626,43.77925,1708,1765,accurate,accurate,accurate
+02140702,Italy,Florence,11.24626,43.77925,1714,1861,accurate,accurate,accurate
+02140702,Italy,Florence,11.24626,43.77925,1885,2021,accurate,accurate,accurate
+02141122,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02141122,Italy,Florence,11.24626,43.77925,1486,1560,accurate,accurate,accurate
+02141122,NoInfo,NoInfo,11.24626,43.77925,1501,1800,NoInfo,accurate,approx
+02141122,Germany,Dresden,13.73832,51.05089,1700,1763,accurate,approx,accurate
+02141122,Germany,Dresden,13.73832,51.05089,1768,1775,accurate,accurate,accurate
+02141122,Germany,Dresden,13.73832,51.05089,1775,2021,accurate,accurate,accurate
+02001011,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02001011,Italy,Venice,12.33092,45.4389,1701,1761,accurate,accurate,accurate
+02001011,United Kingdom,London,-0.12574,51.50853,1761,1820,accurate,accurate,accurate
+02001011,United Kingdom,London,-0.12574,51.50853,1821,2021,accurate,accurate,accurate
+02140726,Italy,Florence,11.24626,43.77925,1481,1481,accurate,accurate,accurate
+02140726,Italy,NoInfo,12.83333,42.83333,1481,1500,approx,accurate,approx
+02140726,Italy,NoInfo,12.83333,42.83333,1481,1700,approx,accurate,approx
+02140726,Germany,Augsburg,10.89851,48.37154,1730,1700,accurate,accurate,NoInfo
+02140726,Germany,Augsburg,10.89851,48.37154,1808,1700,accurate,accurate,NoInfo
+02140726,Germany,Augsburg,10.89851,48.37154,1811,2021,accurate,accurate,accurate

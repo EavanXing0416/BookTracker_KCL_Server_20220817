@@ -1,0 +1,274 @@
+{% extends 'base.html'%} {% block content %}
+
+<div class="row">
+    <!-- Control Panel -->
+    <div class="col-md-4" style="padding: 0.5rem 0.25rem 0.25rem 0.5rem;;">
+        <div class="card">
+            <h4 class="card-header">Control Panel</h4>
+            <div class="card-body" style="height: 600px;">
+                <!--Other search and selecting elements-->
+                <div id="control-panel-container" style="height:500px">
+                    <div data-role="textinput">
+                        <h6>Search Books by Time</h6>
+                        <label for="myInput-start1">Start Time Range</label>
+                        <input type="text" id="myInput-start1" placeholder="From..." style="width: 35%; margin-bottom:1rem;">
+                        <input type="text" id="myInput-end1" placeholder="to... " style="width: 35%; margin-bottom:1rem ">
+                        <br/>
+                        <label for="myInput-start2">End Time Range</label>
+                        <input type="text" id="myInput-start2" placeholder="From..." style="width: 35%; margin-bottom:1rem;">
+                        <input type="text" id="myInput-end2" placeholder=" to... " style="width: 35%; margin-bottom:1rem ">
+                        <br/>
+                        <h6>Search Books by Location</h6>
+                        <label for="myInput-CountryFrom ">Start Country</label>
+                        <input type="text" id="myInput-CountryFrom" placeholder="Please input country names..." style="width: 40%; margin-bottom:1rem ">
+                        <input type="text" id="myInput-CountryFromExclude" placeholder="Exclude..." style="width: 30%; margin-bottom:1rem ">
+                        <br/>
+                        <label for="myInput-PlaceFrom ">Start City </label>
+                        <input type="text" id="myInput-PlaceFrom" placeholder="Please input city names..." style="width: 40%; margin-bottom:1rem ">
+                        <input type="text" id="myInput-PlaceFromExclude" placeholder="Exclude..." style="width: 30%; margin-bottom:1rem ">
+                        <br/>
+                        <label for="myInput-CountryTo ">End Country</label>
+                        <input type="text" id="myInput-CountryTo" placeholder="Please input country names..." style="width: 40%; margin-bottom:1rem ">
+                        <input type="text" id="myInput-CountryToExclude" placeholder="Exclude..." style="width: 30%; margin-bottom:1rem ">
+                        <br>
+                        <label for="myInput-PlaceTo ">End City </label>
+                        <input type="text" id="myInput-PlaceTo" placeholder="Please input city names..." style="width: 40%; margin-bottom:1rem ">
+                        <input type="text" id="myInput-PlaceToExclude" placeholder="Exclude..." style="width: 30%; margin-bottom:1rem ">
+                        <br/>
+
+                        <h6>Type of the start point and end point</h6>
+                        <div class="form-check">
+                            <label class="form-check-label" style="text-align: left; width: 100%;">
+                                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="imprint" checked="" style="text-align: left; ">
+                                Search book circulation from start & end points in the middile
+                              </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label" style="text-align: left; width: 100%;">
+                                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="inbetween" style="text-align: left;">
+                                Search book circulation from its imprint and to where it ends today
+                              </label>
+                        </div>
+
+                        <br/>
+                        <input id="myInput-submit" type="button" value="Search" style="position:absolute; right: 1rem; width: 15%;">
+                        <br/>
+                        <hr>
+                        <h6>Search Book by Id</h6>
+                        <label for="myInput-searchId ">Book Id </label>
+                        <input type="text" id="myInput-searchId" placeholder="Please input an id of a single copy..." style="width: 55%; margin-bottom:1rem ">
+                        <input id="myInput-submitId" type="button" value="Search" style="position:absolute; right: 1rem; width: 15%;">
+                        <!--hr/ -->
+                    </div>
+
+                    <!--
+                    <h6>Time range slider</h6>
+                    <div data-role="rangeslider">
+                        <label for="range-strat">Rangeslider:</label>
+                        <input name="range-start" id="range-start" min="1841" max="2021" value="1841" type="range" />
+                        <br>
+                        <label for="range-end">Rangeslider:</label>
+                        <input name="range-end" id="range-end" min="1841" max="2021" value="2021" type="range" />
+                    </div>
+                    <br>
+                    -->
+                    <!--
+                    <div id='instruction-container'>
+                        <h6>Instructions on how to search
+                            <input type="button" value="Show" style="position:absolute; right:1rem; width: 15%; font-size: 14px;" onclick="document.getElementById('instruction').style.display=document.getElementById('instruction').style.display==''?'none':'';">
+                        </h6>
+                        <div id="instruction" style="display:none">
+                            <span>here will be some instructions on how to input the search queries, also the country/city name can be typed</span>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Observable View -->
+    <div class="col-md-8" style="padding: 0.5rem 0.5rem 0.25rem 0.25rem;">
+        <div class="card">
+            <h4 class="card-header">Observable View</h4>
+            <div class="card-body" style="height: 600px;">
+                <!-- The Tabs -->
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#leaflet_tab_box">Geopolitical Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#map_tab_box">Trajectory Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#chord_tab_box">Chord Diagram</a>
+                    </li>
+                    <!--
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#line_tab_box">Line Chart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#cube_tab_box">SpaceTimeCube</a>
+                    </li>
+                    -->
+                </ul>
+
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade active show" id="leaflet_tab_box" style="margin:auto;">
+                        <br/>
+                        <div id="leafletmap" style='height: 500px; width:720px; margin:auto;'></div>
+                    </div>
+                    <div class="tab-pane fade" id="map_tab_box">
+                        <br/>
+                        <div id="map" style='height: 500px;'>
+                            <div class="info">Country Name</div>
+                            <svg width="720" height="460" style="background-color:rgb(210, 220, 240)">
+                                <g class="basemap"></g>
+                                <g class="movements"></g>
+                                <g class="locations"></g> 
+                                <g class="highlight_path"></g>
+                                <g class="bounding-box"><rect></rect></g>
+                                <g class="centroid"><circle r="3"></circle></g>	 
+                            </svg>
+                            <div class="btn-group btn-group-sm" role="group" label="Map Zoom & Pan" style="float:left; padding: 1px; margin-top: 2px;">
+                                <button class="btn btn-outline-secondary" id="btn-zoomin" onclick="zoomIn()">Zoom in</button>
+                                <button class="btn btn-outline-secondary" id="btn-zoomout" onclick="zoomOut()">Zoom out</button>
+                                <button class="btn btn-outline-secondary" id="btn-panleft" onclick="panLeft()">Pan left</button>
+                                <button class="btn btn-outline-secondary" id="btn-panright" onclick="panRight()">Pan right</button>
+                                <button class="btn btn-outline-secondary" id="btn-zoomreset" onclick="resetZoom()">Reset zoom</button>
+                                <button class="btn btn-outline-secondary" id="btn-center" onclick="center()">Center</button>
+                            </div>
+
+                            <!-- Try function buttons-->
+                            <script type="text/javascript">
+                                function elementDisplay(classname) {
+                                    var pathclass = document.getElementsByClassName(classname);
+                                    var i;
+                                    for (i = 0; i < pathclass.length; i++) {
+                                        if (pathclass[i].style.visibility != 'hidden') {
+                                            pathclass[i].style.visibility = 'hidden';
+                                        } else {
+                                            pathclass[i].style.visibility = 'visible';
+                                        }
+                                    }
+                                }
+                            </script>
+
+                            <div class="btn-group btn-group-sm" role="group" label="Map Interaction" style="float:right; padding: 1px; margin-top: 2px;">
+                                <button type="button" class="btn btn-outline-secondary" id="btn1" onclick="elementDisplay('movements')">Provenance</button>
+                                <button type="button" class="btn btn-outline-secondary" id="btn2" onclick="elementDisplay('highlight_path')">Highlight</button>
+                                <button type="button" class="btn btn-outline-secondary" id="btn3" onclick="elementDisplay('locations')">Location</button>
+                                <!--button type="button" class="btn btn-outline-secondary" id="btn4">Animation</button-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="chord_tab_box">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="padding: .25rem;">
+                                  - Country Level
+                                </button>
+                                </h4>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body" id="chord-country-container">
+                                        <div id="chord-country" style='height: 440px;'></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="padding: .25rem;">
+                                  - City Level
+                                </button>
+                                </h4>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body" id="chord-city-container">
+                                        <div id="chord-city" style='height: 440px;'></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--div class="btn-group btn-group-sm" role="group" label="Chord Interaction" style="padding: 1px; margin-top: 2px;">
+                            <button type="button" class="btn btn-outline-secondary" id="chord-btn1">Country Level</button>
+                            <button type="button" class="btn btn-outline-secondary" id="chord-btn2">City Level</button>
+                        </div-->
+
+                    </div>
+
+                    <!--
+                    <div class="tab-pane fade" id="line_tab_box">
+                        <p>Check whether tab works</p>
+                    </div>
+                    <div class="tab-pane fade" id="cube_tab_box">
+                        <p>Check whether tab works2</p>
+                    </div>
+                    -->
+
+                </div>
+
+            </div>
+            <!--<div class="card-footer"></div>-->
+        </div>
+    </div>
+</div>
+
+<!-- Show book copy table -->
+<div class="row">
+    <div class="col-md-12" style="padding: 0.25rem 0.5rem 0.5rem 0.5rem;">
+        <div class="card border-dark">
+            <h4 class="card-header">Book Record</h4>
+            <div class="card-body">
+                <!--A table showing the csv file <h6>Retrive one copy by its ID</h6>-->
+                <div id="table-container" style="overflow: auto; height: 300px;">
+                    <table id="myTable" style="width: 100%;">
+                        <thead style="position: sticky; top: 0;">
+                            <th style="width:11%; padding: 0.25rem;">ID</th>
+                            <th style="width:11%; padding: 0.25rem;">MEILink</th>
+                            <!--<th style="width:20%">Holding Institution</th>-->
+                            <th style="width:11%; padding: 0.25rem;">Provenance</th>
+                            <th style="width: 8%; padding: 0.25rem;">Area</th>
+                            <th style="width: 8%; padding: 0.25rem;">Place</th>
+                            <th style="width: 8%; padding: 0.25rem">Data Integrity</th>
+                            <th style="width: 8%; padding: 0.25rem;">Start Time</th>
+                            <th style="width: 8%; padding: 0.25rem">Data Integrity</th>
+                            <th style="width: 8%; padding: 0.25rem;">End Time</th>
+                            <th style="width: 8%; padding: 0.25rem">Data Integrity</th>
+                            <!--<th style="width:10%">Data Integrity</th>-->
+                            <th style="width:11%; padding: 0.25rem;">Today</th>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <br/>
+                <div class="input-group mb-3" style="margin-top: 0.5rem; margin-bottom:0!important;">
+                    <input type="text" id="myInput-id" onkeyup="searchBook()" placeholder="Search a book Id inside the table and highlight the path in the Trajectory Map..." title="Type in an id" style="width: 35%; margin-bottom:0.5rem ">
+                    <button type="button" class="btn btn-primary btn-sm" style="margin-bottom:0.5rem; width:10%" onclick="highlightSinglePath()">Highlight in Trajectory</button>
+                </div>
+            </div>
+            <!--<div class="card-footer"></div>-->
+        </div>
+    </div>
+</div>
+
+
+
+
+{% endblock %} {% block foot %}
+<script src="../static/js/dropdowns_iter2.js"></script>
+<script src="../static/js/view.js"></script>
+<script src="../static/js/view-trajectorymap.js"></script>
+<script src="../static/js/view-chord.js"></script>
+<script src="../static/js/view-table.js"></script>
+<script src="../static/js/view-leafletmap.js"></script>
+<script src="../static/js/js-library/MovingMarker.js"></script>
+<script src='../static/js/js-library/polylineDecorator.js'></script>
+<script src='../static/js/js-library/leaflet-polycolor.min.js'></script>
+
+<link rel="stylesheet" href="../static/css/ControlLayersTree.css" crossorigin="" />
+<script src="../static/js/js-library/ControlLayersTree.js"></script>
+
+{% endblock %}

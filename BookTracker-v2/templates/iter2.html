@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MEI Book Trade Project -- second iteration</title>
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/style.css" rel="stylesheet">
+
+
+    <!-- Load d3.js, bootstrap, jquery -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!--script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script-->
+    <!-- Popper plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <!-- Amsify Plugin -->
+    <script type="text/javascript" src="../static/js/jquery.amsifyselect.js"></script>
+    <!--script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script-->
+    <!--script src="../static/js/bootstrap.min.js"></script-->
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <!-- Following are the navy bar-->
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">Dante1481</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+                            <div class="collapse navbar-collapse" id="navbarColor01">
+                                <ul class="navbar-nav me-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Home
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://data.cerl.org/mei/_search">MEI Search Page</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">SpaceTimeCube</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Chord Graph</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="https://data.cerl.org/mei/_search">MEI</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <form class="d-flex">
+                                    <input class="form-control me-sm-2" type="text" placeholder="Search">
+                                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <br>
+
+
+
+
+        <div class="row">
+            <div class="col-md-4">
+
+                <div class="card border-dark mb-3">
+                    <h4 class="card-header">Control Panel</h4>
+                    <div class="card-body">
+                        <!--Other search and selecting elements-->
+                        <h6>Search Books by location and time period</h6>
+                        <div data-role="textinput">
+                            <label for="myInput-start">Start Time</label>
+                            <input type="text" id="myInput-start" placeholder="Please input start time (1481-2021)..." style="width: 80%; margin-bottom:1rem; right:1rem;">
+                            <br>
+                            <label for="myInput-end">End Time </label>
+                            <input type="text" id="myInput-end" placeholder=" Please input end time (1481-2021)... " style="width: 80%; margin-bottom:1rem ">
+                            <br>
+                            <label for="myInput-AreaFrom ">Area From </label>
+                            <input type="text" id="myInput-AreaFrom" placeholder="Please input location..." style="width: 80%; margin-bottom:1rem ">
+                            <br>
+                            <label for="myInput-AreaTo ">Area To </label>
+                            <input type="text" id="myInput-AreaTo" placeholder="Please input location..." style="width: 80%; margin-bottom:1rem ">
+                            <br>
+                            <input id="myInput-submit" type="button" value="Search" style="position:absolute; right: 1rem;">
+                            <input id="myInput-clear" type="reset" value="Clear" style="position:absolute; right:5rem;">
+                        </div>
+                        <br>
+
+                        <h6>Time range slider</h6>
+                        <div data-role="rangeslider">
+                            <label for="range-strat">Rangeslider:</label>
+                            <input name="range-start" id="range-start" min="1841" max="2021" value="1841" type="range" />
+                            <br>
+                            <label for="range-end">Rangeslider:</label>
+                            <input name="range-end" id="range-end" min="1841" max="2021" value="2021" type="range" />
+                        </div>
+                        <br>
+
+                        <h6>Search Books by Location</h6>
+                        <select class="form-control" name="country" multiple="multiple" searchable>
+                                <option value="
+                                ">Select Country</option>
+                                <optgroup label="Asia">
+                                    <option value="1">India</option>
+                                    <option value="2">Afghanistan</option>
+                                    <option value="3">Bangladesh</option>
+                                    <option value="4">Nepal</option>
+                                    <option value="5">Sri Lanka</option>
+                                </optgroup>
+                                <optgroup label="America">
+                                    <option value="6">USA</option>
+                                    <option value="7">Canada</option>
+                                    <option value="8">West Indies</option>
+                                    <option value="9">Chile</option>
+                                    <option value="10">Argentina</option>
+                                </optgroup>
+                                <optgroup label="Africa">
+                                    <option value="11">South Africa</option>
+                                    <option value="12">Nigeria</option>
+                                    <option value="13">Algeria</option>
+                                    <option value="14">Somalia</option>
+                                    <option value="15">Sudan</option>
+                                </optgroup>
+                            </select>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-8">
+                <div class="card mb-3">
+                    <h4 class="card-header">Trajectory on Map</h4>
+                    <div class="card-body">
+                        <!--Here is a svg for the basic world map-->
+                        <div id="map">
+                            <svg width=100% height="400" style="background-color:rgb(210, 220, 240)"><!--width 900, height = 500 -->
+								<g class="basemap"></g>
+								<g class="movements"></g>
+								<g class="locations"></g> 
+								<g class="bounding-box"><rect></rect></g>
+								<g class="centroid"><circle r="3"></circle></g>	 
+							</svg>
+                            <div class="info">Country Name</div>
+                        </div>
+                    </div>
+                    <!--<div class="card-footer"></div>-->
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="card border-dark mb-3">
+                    <h4 class="card-header">Book Record</h4>
+                    <div class="card-body">
+                        <h6>Search a Book by its ID</h6>
+                        <!--A table showing the csv file-->
+                        <input type="text" id="myInput-id" onkeyup="searchBook()" placeholder="Please input a book id..." title="Type in an id" style="width: 100%; margin-bottom:1rem ">
+                        <div id="table-container" style="overflow: auto; height: 200px;">
+                            <table id="myTable" style="width: 100%;">
+                                <thead style="position: sticky; top: 0;">
+                                    <th style="width:10%">ID</th>
+                                    <th style="width:10%">MEILink</th>
+                                    <!--<th style="width:20%">Holding Institution</th>-->
+                                    <th style="width:10%">Provenance</th>
+                                    <th style="width:10%">Area</th>
+                                    <th style="width:10%">Place</th>
+                                    <th style="width:10%">Start Time</th>
+                                    <th style="width:10%">End Time</th>
+
+                                    <!--<th style="width:10%">Data Integrity</th>-->
+                                    <th style="width:10%">Today</th>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!--<div class="card-footer"></div>-->
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <h4 class="card-header">Line Chart</h4>
+                    <div class="card-body">
+                        <!--<div class="card-footer"></div>-->
+                        <select id="selectButton"></select>
+                        <div id="linechart">
+                            <svg width=90% height="200"></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <h4 class="card-header">Space Time Cube</h4>
+                    <div class="card-body">Content of the 3D Cube</div>
+                    <!--<div class="card-footer"></div>-->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-dark mb-3">
+                    <h4 class="card-header">Description of Books</h4>
+                    <div class="card-body">Provenance details of the selected books
+                        <p>
+                            <a class="btn" href="#">View details »</a>
+                        </p>
+                    </div>
+                    <!--<div class="card-footer"></div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--js for drawing the elements in different panels-->
+    <script src="../static/js/dropdowns_iter2.js"></script>
+    <script src="../static/js/csvtable_iter2.js"></script>
+    <script src="../static/js/ctrlpanel.js"></script>
+    <script src="../static/js/basemap_iter2.js"></script>
+    <script src="../static/js/linechart.js"></script>
+
+</body>
+
+</html>
